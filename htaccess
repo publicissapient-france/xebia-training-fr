@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: .htaccess
+---
+AuthType Basic
+AuthName "Xebia Training”
+AuthUserFile .htpasswd
+require valid-user
