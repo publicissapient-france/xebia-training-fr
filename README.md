@@ -1,4 +1,4 @@
-Xebia Training UK Website
+Xebia Training FR Website
 ----------
 * Install [jekyll](https://github.com/mojombo/jekyll/wiki/install)
 * Clone repository.
@@ -8,5 +8,5 @@ Xebia Training UK Website
 
 Live
 ----------
-* http://xebia-france.github.com/xebia-training-uk/
-* http://training.xebia.co.uk/
+* http://xebia-france.github.com/xebia-training-fr/
+* http://training.xebia.fr/
