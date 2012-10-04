@@ -1,7 +1,7 @@
 fs = require 'fs'
 data = [
 	["/formations-methodes-agiles","/formations-methodes-agiles.html"],
-	["/formations-methodes-agiles/formation-scrummaster-certifiante-en-francais-animee-par-petra-skapa","/formation-scrummaster-certifiante-francais.html"],
+	["/formations-methodes-agiles/formation-scrummaster-certifiante-en-francais-animee-par-petra-skapa","/formations-methodes-agiles.html"],
 	["/formations-methodes-agiles/formation-scrummaster-jeff-sutherland","/formation-scrummaster-certifiante-anglais.html"],
 	["/formations-methodes-agiles/formation-certifiante-product-owner-en-francais-animee-par-petra-skapa","/formation-scrum-product-owner-certifiante-francais.html"],
 	["/formations-methodes-agiles/formation-product-owner-arlen-bankston","/formation-scrum-product-owner-certifiante-anglais.html"],
