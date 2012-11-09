@@ -1,26 +1,16 @@
 /*************************/
 /*        General       */
 /************************/
-.box-bio {
-    float: right;
-    padding: 10px 0 10px 20px;
-    margin: -55px 40px 20px 0;
-    width: 600px;
-    border-left: dotted 1px;
-}
-
-.img_bio {
-    float: left;
-    padding: 10px 0 10px 0px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
 body {
     text-align: justify;
     -webkit-font-smoothing: antialiased;
     background: transparent url(../images/backgrounds/background_body.jpg) repeat;
-    font-family: "Myriad Pro", Lucida, Arial;
+    font-family: AsapRegular, sans-serif;
 }
+conteneur {
+    width: 100%;
+}
+
 blockquote {
     margin-top: 20px;
     margin-left: 10px;
@@ -35,33 +25,39 @@ blockquote p {
     font-size: 15px;
 }
 h1 {
-    font-family: webdings, "Myriad Pro", Lucida;
     margin-top: 15px;
     margin-bottom: 10px;
     color: #6d2960;
-    font-size: 150%;
-    text-transform: uppercase;
+    font-family: MisoRegular, sans-serif;
+    font-size: 220%;
 }
 h2 {
     margin-top: 15px;
     color: #323338;
-    font-family: webdings, "Myriad Pro", Lucida;
-    font-size: 140%;
-    text-transform: uppercase;
+    font-family: MisoLight, sans-serif;
+    font-size: 35px;
 }
 h3 {
     margin-top: 15px;
     color: #323338;
-    font-family: webdings, "Myriad Pro", Lucida;
-    font-size: 130%;
+    font-family: MisoLight, sans-serif;
+    font-size: 25px;
+}
+h5 {
+    color: #333333;
+    padding-top: 15px;
+    font-family: MisoRegular, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 p {
-    font-family: "myriad pro", Lucida, Arial;
-    font-size: 14px;
+    font-family: AsapRegular, sans-serif;
+    font-size: 15px;
     text-align: left;
     line-height: 20px;
 }
 p.intro {
+    font-family: AsapRegular, sans-serif;
     font-size: 15px;
     text-align: left;
     line-height: 25px;
@@ -301,34 +297,13 @@ img.small {
 .learnmore a:visited {
     color: #fff;
 }
-.learnmore-top {
-   display: inline-block;
-   background-color: #323338;
-    background-image: -webkit-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Chrome et Safari */
-    background-image: -moz-linear-gradient(top, #323338 0%, #3d3f49 100%); /* firefox */
-    background-image: -ms-linear-gradient(top, #323338 0%, #3d3f49 100%); /* IE10 et + */
-    background-image: -o-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Opera */
-    background-image: linear-gradient(top, #323338 0%, #3d3f49 100%); /* Standard sans prŽfixe */ 
-    padding: 10px 15px;
-   padding: 5px 15px;
-   -moz-box-shadow: 0px 0px 5px #6d2960;
-   -webkit-box-shadow: 0px 0px 5px #6d2960;
-   -moz-border-radius: 5px;
-   -webkit-border-radius: 5px;
-   border-radius: 5px;
-   border: 1px solid #6c2c60;
-   color: #fff;
-   text-transform: uppercase;
-   margin-top: 10px; 
-   margin-right:10px;
-}
 /***********************/
 /*       NavBar        */
 /***********************/
 .navbar {
     border-bottom: 8px solid #48183e;
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
-    font-family: AsapRegular, sans-serif;
+    font-family: MisoRegular, sans-serif;
 }
 span#navbar {
     text-align: right;
@@ -346,7 +321,7 @@ span#navbar {
     color: #cccccc;
 }
 .navbar-inner {
-    height: 170px;
+    height: 110px;
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
 }
 .navbar-inner .container-fluid {
@@ -362,112 +337,6 @@ span#navbar {
     margin-top: 25px;
     margin-right: 0px;
 }
-.oe_overlay{
-    background:#000;
-    opacity:0;
-    left:0px;
-    width:100%;
-    height:100%;
-}
-ul.oe_menu{
-    background: transparent url(../images/backgrounds/background_body.jpg) repeat;
-   padding: 10px 5px 10px 5px;
-   -moz-box-shadow: 0px 0px 5px #6d2960;
-   -webkit-box-shadow: 0px 0px 5px #6d2960;
-   box-shadow: 0px 0px 5px #6d2960;
-   -moz-border-radius: 5px;
-   -webkit-border-radius: 5px;
-   border-radius: 5px;
-   border: 1px solid #fff;
-    list-style:none;
-    position:relative;
-    margin:-30px 0px 0px 0px;
-    width:920px;
-    height: 20px;
-    float:left;
-    clear:both;
-    border: 1px;
-    left:20px;
-}
-ul.oe_menu > li{
-    height:55px;
-    padding-bottom:2px;
-    float:left;
-    position:relative;
-}
-ul.oe_menu > li > a{
-    text-align: center;
-    font-weight: bold;
-    font-size:11px;
-    height:15px;
-    padding:5px;
-    margin-right:4px;
-    margin-left:4px;
-    color: #6d2960;
-    text-transform: uppercase;
-}
-
-ul.oe_menu div{
-    position:absolute;
-    top: 25px;
-    border-top: 6px solid #6d2960;
-    background: transparent url(../images/backgrounds/background_body.jpg) repeat;
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    width:890px;
-    height:auto;
-    padding:20px 20px 0px 20px;
-    display:none;
-
-}
-ul.oe_menu div ul li a{
-    color:#222;
-    padding:2px 2px 2px 4px;
-    margin:2px;
-    display:block;
-    font-size:12px;
-    list-style-image : url(../images/bullet.png);
-    line-height: 17px;
-}
-ul.oe_menu div ul.oe_full{
-    width:100%;
-}
-ul.oe_menu div ul li a:hover{
-    background:#000;
-    color:#fff;
-}
-ul.oe_menu li ul{
-    list-style:none;
-    float:left;
-    width: 435px;
-    margin-right:6px;
-    margin-left: 2px;
-    margin-bottom: 25px;
-    text-align: left;
-}
-li.oe_heading{
-    color:#6d2960;
-    font-size:15px;
-    margin-bottom:10px;
-    padding-bottom:6px;
-    border-bottom:1px solid #ddd;
-    text-transform: uppercase;
-    font-family: "Webdings", Helvetica, Arial;
-}
-.box-top-nav{
-    margin-top: -115px;
-    float:left;
-    margin-left: 200px;
-}
-.box-top-nav-1{
-  margin-top: -100px;
-    float:right;
-    margin-right: 100px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 200%;
-}
 /***********************/
 /*       Index         */
 /***********************/
@@ -477,12 +346,14 @@ li.oe_heading{
 .index-title h1 {
     margin-top: 30px;
     color: #6d2960;
-    font-size: 150%;
+    font-family: AsapRegular, sans-serif;
+    font-size: 300%;
 }
 .index-title p {
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 150%;
+    font-family: AsapRegular, sans-serif;
 }
 #indexCarousel {
     margin-top: 20px;
@@ -498,7 +369,7 @@ li.oe_heading{
     color: #ffffff;
     margin-bottom: 20px;
     text-align: left;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 25px;
 }
 .carousel p {
@@ -520,8 +391,9 @@ li.oe_heading{
     margin-right: 10px;
 }
 .slider h2 {
-    font-size: 15px;
+    font-size: 25px;
     color: #ffffff;
+    font-family: MisoRegular, sans-serif;
 }
 .carousel-inner {
     background-color: #343438;
@@ -546,6 +418,7 @@ div.rightcolumn {
 }
 ul.right li {
     list-style-image : url(../images/bullet.png);
+    font-family: AsapRegular, sans-serif;
     font-size: 12px;
     line-height: 17px;
 }
@@ -559,12 +432,12 @@ ul.right li a {
     font-size: 15px;
 }
 .columns h2 {
-
+    font-size: 26px;
     padding-bottom: 20px;
     margin-bottom: 20px;
     color: #6d2960;
     border-bottom: 1px solid #999999;
-    font-family: webdings, "Myriad Pro", Lucida;
+    font-family: MisoRegular, sans-serif;
     text-align: left;
 }
 footer {
@@ -573,7 +446,8 @@ footer {
 }
 footer h2 {
     color: #ffffff;
-    font-size: 150%;
+    font-family: MisoRegular, sans-serif;
+    font-size: 200%;
 }
 .footer-inner {
     padding-top: 50px;
@@ -645,11 +519,13 @@ img.x {
     margin: 0 0 0 0px;
     width: 540px;
     color: #333;
+    font-family: AsapRegular, sans-serif;
     line-height: 120%;
     text-align: left;
     padding: 20px; 
 } 
 p.trainer {
+    font-family: AsapRegular, sans-serif;
     text-align: left;
     margin-bottom: 5px;
     margin-top: 10px;
@@ -660,6 +536,7 @@ ul.trainer {
 }
 ul.trainer li {
     list-style-image : url(../images/bullet.png);
+    font-family: AsapRegular, sans-serif;
     font-size: 14px;
     line-height: 22px;
     text-align: left;
@@ -677,6 +554,7 @@ img.trainer {
     margin: 0 0 0 0px;
     width: 540px;
     color: #333;
+    font-family: AsapRegular, sans-serif;
     line-height: 120%;
     text-align: justify;
     padding: 20px; 
@@ -699,6 +577,7 @@ img.trainer {
 }
 
 p.bio {
+    font-family: AsapRegular, sans-serif;
     font-size: 13px;
     text-align: right;
     margin-bottom: 5px;
@@ -709,12 +588,19 @@ h1.bio {
     margin-top: -24px;
     text-align: right;
 }
+.img_bio {
+    float: right;
+    padding: 10px 0 10px 20px;
+    margin-top: -45px;
+    margin-bottom: -20px;
+}
 div#course {
     padding-bottom: 30px;
     padding-top: 30px;
 }
 ul.course li {
     list-style-image : url(../images/bullet.png);
+    font-family: AsapRegular, sans-serif;
     font-size: 14px;
     line-height: 22px;
     text-align: left;
@@ -726,6 +612,7 @@ ul.toogle  {
 
 ul.toogle li {
     list-style-image : url(../images/bullet.png);
+    font-family: AsapRegular, sans-serif;
     font-size: 15px;
     line-height: 22px;
 }
@@ -734,16 +621,17 @@ h1.course_title {
     background-position: bottom;
     margin-bottom: 10px;
     margin-top: -10px;
-    font-size: 150%;
+    font-size: 220%;
     text-transform: uppercase;
     text-align: left;
 }
 h2.course_title {
     color: #6d2960;
-    font-size: 120%;
+    font-size: 150%;
     margin-top: 20px;
     margin-bottom: 5px;
     text-transform: uppercase;
+    font: bold;
     text-align: left;
 }
 
@@ -785,7 +673,7 @@ h3.course_title {
 .pdf {
     padding-right: 20px;
     float:right;
-    margin: -1px;
+    margin-top: 15px;
 }
 
 
@@ -808,14 +696,16 @@ h2.agile_title {
 }
 h1.agile_training {
     color: #323338;
-    font-size: 170%;
+    font-family: MisoRegular, sans-serif;
+    font-size: 250%;
     margin: 0px 5px 10px 5px;
     text-align: center;
 }
  
 h2.agile_training {
     color: #6D2960;
-    font-size: 180%;
+    font-family: MisoRegular, sans-serif;
+    font-size: 220%;
     margin: 20px 5px -20px 5px;
 }
  
@@ -825,6 +715,7 @@ h2.agile_training {
     margin-top: 16%;
     position: fixed;
     margin-left: 87%;
+    font-family: AsapRegular, sans-serif;
     color: #fff;
     font-size: 15px;
     line-height: 17px;
@@ -862,6 +753,7 @@ h2.agile_training {
 
 ul.liste_form_agil li {
     list-style-image : url(../images/bullet.png);
+    font-family: AsapRegular, sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-align: left;
@@ -884,9 +776,12 @@ h1.technical_title {
 }
 
 h2.technical_training {
-    color: #6D2960;
-    font-size: 180%;
-    margin: 20px 5px -20px 5px;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: left;
+    color: #6D747A;
+    font-family: MisoRegular, sans-serif;
+    font-size: 220%;
 }
 
 .barre {
@@ -904,6 +799,7 @@ h2.technical_training {
     margin-top: 5%;
     position: fixed;
     margin-left: 87%;
+    font-family: AsapRegular, sans-serif;
     color: #fff;
     font-size: 15px;
     line-height: 17px;
@@ -1079,16 +975,238 @@ h1.equipe {
 
 h2.equipe {
     color: #6D2960;
-    font-family: Webdings, sans-serif;
+    font-family: MisoRegular, sans-serif;
     font-size: 200%;
     text-align: center;
 }
 h2.equipe2 {
     color: #6D2960;
-    font-family: Webdings, sans-serif;
+    font-family: MisoRegular, sans-serif;
     font-size: 200%;
     text-align: center;
     padding-top: 15%;
+}
+
+/****************************/
+/*        dcmegamenu       */
+/***************************/
+.mega-menu ul, .mega-menu ul li {
+   list-style: none;
+   float: left;
+}
+.mega-menu ul {
+   position: relative; 
+   padding: 0; margin: 0;
+}
+.mega-menu ul li ul {
+   display: none;
+}
+.mega-menu .sub {
+   display: none;
+}
+.mega-menu .sub ul {
+   display: block;
+}
+#mega-menu-1 {
+   display: inline-block;
+   background-color: #323338;
+   background-image: -webkit-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Chrome et Safari */
+   background-image: -moz-linear-gradient(top, #323338 0%, #3d3f49 100%); /* firefox */
+   background-image: -ms-linear-gradient(top, #323338 0%, #3d3f49 100%); /* IE10 et + */
+   background-image: -o-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Opera */
+   background-image: linear-gradient(top, #323338 0%, #3d3f49 100%); /* Standard sans prŽfixe */
+   padding: 5px 15px;
+   -moz-box-shadow: 0px 0px 5px #6d2960;
+   -webkit-box-shadow: 0px 0px 5px #6d2960;
+   box-shadow: 0px 0px 5px #6d2960;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   border: 1px solid #333234;
+   color: #fff;
+   text-transform: uppercase;
+   margin-top:40px;
+   font-size: 16px; 
+   list-style: none; 
+   position: relative; 
+   padding: 0; 
+}
+#mega-menu-1 .sub ul {
+   display: block;
+}
+#mega-menu-1 {
+   width: 105%; 
+   height: 40px;
+   position: relative;
+}
+#mega-menu-1 li {
+   float: left; 
+   margin: 0; 
+   padding: 0; 
+   font-weight: bold;
+}
+#mega-menu-1 li a {
+   float: left; 
+   display: block; 
+   color: #fff; 
+   padding: 12px 15px; 
+   text-decoration: none;
+}
+#mega-menu-1 li.mega-hover a, #mega-menu-1 li.mega-hover a:hover {
+   color: #eee;
+}
+#mega-menu-1 li a:hover {
+   color: #eee;
+}
+#mega-menu-1 li .sub-container {
+   position: absolute;
+}
+#mega-menu-1 li .sub {
+   width: 380px; 
+   background-color: #f1efee;
+   background-image: -webkit-linear-gradient(top, #f1efee 0%, #f1efee 100%); /* Chrome et Safari */
+   background-image: -moz-linear-gradient(top,  #f1efee 0%, #f1efee 100%); /* firefox */
+   background-image: -ms-linear-gradient(top,  #f1efee 0%, #f1efee 100%); /* IE10 et + */
+   background-image: -o-linear-gradient(top,  #f1efee 0%, #f1efee 100%); /* Opera */
+   background-image: linear-gradient(top,  #f1efee 0%, #f1efee 100%); /* Standard sans prŽfixe */
+   padding: 10px; 
+   margin-top: -2px;
+   border: 1px solid #808081;
+}
+#mega-menu-1 li .sub .row {
+   overflow: hidden;
+   clear: both;
+}
+#mega-menu-1 li .sub li {
+   list-style: none; 
+   float: none; 
+   font-size: 15px; 
+   font-weight: normal;
+}
+#mega-menu-1 li .sub li.mega-hdr {
+   margin: 0 10px 10px 0; 
+   float: left;
+}
+#mega-menu-1 li .sub li.mega-hdr.last {
+   margin-right: 0;
+}
+#mega-menu-1 li .sub a {
+   background: none; 
+   color: #333234;
+   padding: 7px 10px; 
+   display: block; 
+   float: none; 
+   font-weight: bold;
+}
+#mega-menu-1 li .sub li.mega-hdr a.mega-hdr-a {
+   padding: 5px 15px; 
+   margin-bottom: 5px; 
+   background: #999; 
+   text-transform: uppercase; 
+   font-weight: bold; 
+   font-size: 1em;
+   color: #fff;
+}
+#mega-menu-1 li .sub li.mega-hdr a.mega-hdr-a:hover {
+   color: #000;
+}
+#mega-menu-1 .sub li.mega-hdr li a {
+   padding: 4px 5px; 
+   font-weight: normal;
+}
+
+#mega-menu-1 .sub li.mega-hdr li a:hover {
+   color: #eee; 
+}
+#mega-menu-1 .sub ul li {
+   padding-right: 0;
+}
+
+#mega-menu-1 li .sub-container.non-mega .sub {
+   padding: 10px;
+}
+#mega-menu-1 li .sub-container.non-mega li {
+   padding: 0; 
+   width: 380px; 
+   margin: 0;
+}
+#mega-menu-1 li .sub-container.non-mega li a {
+   padding: 7px 5px 7px 22px;
+}
+#mega-menu-1 li .sub-container.non-mega li a:hover {
+   color: #5b5b5b; 
+}
+/***********************/
+/* Chargement des font */
+/***********************/
+/* Cantarell */
+@font-face {
+    font-family: 'CantarellRegular';
+    src: url('../font/Cantarell/Cantarell-Regular-webfont.eot') format('embedded-opentype'), url('../font/Cantarell/Cantarell-Regular-webfont.woff') format('woff'), url('../font/Cantarell/Cantarell-Regular-webfont.ttf') format('truetype'), url('../font/Cantarell-Regular-webfont.svg#CantarellRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CantarellOblique';
+    src: url('../font/Cantarell/Cantarell-Oblique-webfont.eot') format('embedded-opentype'), url('../font/Cantarell/Cantarell-Oblique-webfont.woff') format('woff'), url('../font/Cantarell/Cantarell-Oblique-webfont.ttf') format('truetype'), url('../font/Cantarell-Oblique-webfont.svg#CantarellOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CantarellBold';
+    src: url('../font/Cantarell/Cantarell-Bold-webfont.eot') format('embedded-opentype'), url('../font/Cantarell/Cantarell-Bold-webfont.woff') format('woff'), url('../font/Cantarell/Cantarell-Bold-webfont.ttf') format('truetype'), url('../font/Cantarell-Bold-webfont.svg#CantarellBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CantarellBoldOblique';
+    src: url('../font/Cantarell/Cantarell-BoldOblique-webfont.eot') format('embedded-opentype'), url('../font/Cantarell/Cantarell-BoldOblique-webfont.woff') format('woff'), url('../font/Cantarell/Cantarell-BoldOblique-webfont.ttf') format('truetype'), url('../font/Cantarell-BoldOblique-webfont.svg#CantarellBoldOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Asap */
+@font-face {
+    font-family: 'AsapRegular';
+    src: url('../font/asap/Asap-Regular-webfont.eot') format('embedded-opentype'), url('../font/asap/Asap-Regular-webfont.woff') format('woff'), url('../font/asap/Asap-Regular-webfont.ttf') format('truetype'), url('../font/asap/Asap-Regular-webfont.svg#AsapRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AsapBold';
+    src: url('../font/asap/Asap-Bold-webfont.eot') format('embedded-opentype'), url('../font/asap/Asap-Bold-webfont.woff') format('woff'), url('../font/asap/Asap-Bold-webfont.ttf') format('truetype'), url('../font/asap/Asap-Bold-webfont.svg#AsapBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AsapItalic';
+    src: url('../font/asap/Asap-Italic-webfont.eot') format('embedded-opentype'), url('../font/asap/Asap-Italic-webfont.woff') format('woff'), url('../font/asap/Asap-Italic-webfont.ttf') format('truetype'), url('../font/asap/Asap-Italic-webfont.svg#AsapBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AsapBoldItalic';
+    src: url('../font/asap/Asap-BoldItalic-webfont.eot') format('embedded-opentype'), url('../font/asap/Asap-BoldItalic-webfont.woff') format('woff'), url('../font/asap/Asap-BoldItalic-webfont.ttf') format('truetype'), url('../font/asap/Asap-BoldItalic-webfont.svg#AsapBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Miso */
+@font-face {
+    font-family: 'MisoRegular';
+    src: url('../font/Miso/miso-regular-webfont.eot') format('embedded-opentype'), url('../font/Miso/miso-regular-webfont.woff') format('woff'), url('../font/Miso/miso-regular-webfont.ttf') format('truetype'), url('../font/Miso/miso-regular-webfont.svg#MisoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MisoBold';
+    src: url('../font/Miso/miso-bold-webfont.eot') format('embedded-opentype'), url('../font/Miso/miso-bold-webfont.woff') format('woff'), url('../font/Miso/miso-bold-webfont.ttf') format('truetype'), url('../font/Miso/miso-bold-webfont.svg#MisoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MisoLight';
+    src: url('../font/Miso/miso-light-webfont.eot') format('embedded-opentype'), url('../font/Miso/miso-light-webfont.woff') format('woff'), url('../font/Miso/miso-light-webfont.ttf') format('truetype'), url('../font/Miso/miso-light-webfont.svg#MisoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 /*************************/
 /*        Lytebox       */
@@ -1100,7 +1218,7 @@ h2.equipe2 {
 #lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
     #lbOuterContainer.black { border: 2px solid #CCCCCC; background-color: #000000; }
 #lbTopContainer, #lbBottomContainer { 
-    font: 0.85em Webdings, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em; font-size: 0.9em;
+    font: 0.85em Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em; font-size: 0.9em;
     overflow: hidden; margin: 0 auto; padding: 0; position: relative; z-index: 14; display: none;
 }
 #lbTopContainer { overflow: hidden; margin-top: 5px; }
@@ -1156,7 +1274,7 @@ h2.equipe2 {
     position: absolute;
     top: 2em; left:0;
     padding: 0.5em 0.8em;
-    font: 10pt "Webdings MS", Arial, Helvetica, sans-serif !important;
+    font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif !important;
     background: #F4F5FB; 
     border: 1px solid #888888;  
     border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
@@ -1189,7 +1307,7 @@ span.lbIEFix { padding: 0.5em 0.8em !important; }
 
 h2.ss-subtitle{
     padding: 10px 10px 40px;
-    font-size: 32px;
+    font-size: 52px;
     text-transform: uppercase;
     color: rgba(0,0,0,0.8);
     position: relative;
@@ -1222,7 +1340,7 @@ h2.ss-subtitle:after{
     color: #000;
     position: fixed;
     left: 130px;
-    top: 186px;
+    top: 136px;
     width: 50px;
     z-index: 100;
 }
@@ -1231,9 +1349,9 @@ h2.ss-subtitle:after{
     background: rgba(0,0,0,0.2);
     font-size: 16px;
     width: 60px;
-    height: 15px;
+    height: 35px;
     margin: 5px;
-    padding: 10px 5px 10px 5px;
+    padding: 30px 5px 10px 5px;
     float: left;
     border-radius: 10%;
     display: block;
@@ -1549,6 +1667,7 @@ float: right;
 }
 p.chrono-left {
     float: right;
+    font-family: AsapRegular, sans-serif;
     font-size: 15px;
     text-align: right;
     line-height: 25px;
@@ -1603,7 +1722,7 @@ img.chrono {
     position: fixed;
     float: right;
     right: 150px;
-    top: 186px;
+    top: 136px;
     width: 50px;
     z-index: 100;
 }
@@ -1615,12 +1734,12 @@ img.chrono {
     background-image: linear-gradient(top, #323338 0%, #3d3f49 100%); /* Standard sans prŽfixe */ 
     font-size: 13px;
     width: 85px;
-    height: 100%;
+    height: 70px;
     line-height: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 45px 20px 10px 20px;
     margin: 5px;
     float: left;
-    border-radius: 5px;
+    border-radius: 10%;
     display: block;
     text-align: center;
     -webkit-transition: background 0.2s linear;
@@ -1688,19 +1807,19 @@ ul.coaching li a:hover {
 h2.coaching {
     color: #6d2960;
     margin:20px 10px 20px 40px;
-    font-size: 210%;
+    font-size: 250%;
     text-transform: uppercase;   
 }
 h2.contact {
     color: #6d2960;
     margin:20px 10px 20px 20px;
-    font-size: 210%;
+    font-size: 250%;
     text-transform: uppercase;   
 }
 h2.inscription {
     color: #6d2960;
     margin:20px 10px 20px 0px;
-    font-size: 210%;
+    font-size: 250%;
     text-transform: uppercase;   
 }
 
@@ -1845,367 +1964,4 @@ h2.inscription {
 .carousel-caption1 h4,
 .carousel-caption1 p {
     color: #ffffff;
-}
-.coda-slider-wrapper {
-  /*******************************************************
-  *
-  * Most common stuff you'll need to change 
-  * will be below this line.
-  *
-  ********************************************************/
-  /******************************************************
-  * 
-  * Main wrapper padding 
-  *
-  *******************************************************/
-  padding: 20px 0; 
-}
-  
-  .coda-slider-wrapper .coda-slider {
-    /******************************************************
-    * 
-    * Inner wrapper styles 
-    *
-    *******************************************************/
-    display:block;
-    overflow:hidden;
-    border:1px solid #d3d3d3;
-     -moz-border-radius:1px; /* FF1+ */
-    -webkit-border-radius:1px; /* Saf3-4 */
-    border-radius:5px;
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    /******************************************************
-    * 
-    * Width of the container. Typically you will want to 
-    * match this with the width of the panel as well. 
-    *
-    *******************************************************/
-    width: 920px; 
-  }
-    
-    .coda-slider-wrapper .coda-slider .panel {
-      /******************************************************
-      * 
-      * Width of each individual panel. 
-      * Typically you will want to match this with the width 
-      * of the container as well. 
-      *
-      *******************************************************/
-      width: 920px; 
-    }
-      
-      .coda-slider-wrapper .coda-slider .panel .panel-wrapper {
-        /******************************************************
-        * 
-        * Panel wrapper styles 
-        *
-        *******************************************************/
-        padding: 20px; 
-      }
-  
-  .coda-slider-wrapper .coda-nav {
-   border:1px solid #d3d3d3;
-     -moz-border-radius:1px; /* FF1+ */
-    -webkit-border-radius:1px; /* Saf3-4 */
-    border-radius:5px;
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    font-size: 14px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    color: #fff;
-    width: 305px;
-    margin: -20px 10px 10px 300px;
-  }
-    
-    .coda-slider-wrapper .coda-nav .current {
-      /******************************************************
-      * 
-      * Current tab styles 
-      *
-      *******************************************************/
-      color: #6d2960; 
-    }
-    
-    .coda-slider-wrapper .coda-nav a {
-      /******************************************************
-      * 
-      * Tab styles 
-      *
-      *******************************************************/
-
-    padding: 5px;
-    font-size: 14px;
-    border-radius: 5px;
-    margin: 1px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    color: #000;
-    }
-    
-    .coda-slider-wrapper .coda-nav a:hover {
-      /******************************************************
-      * 
-      * Tab styles 
-      *
-      *******************************************************/
-    color: #6d2960; 
-      text-shadow: none; 
-    }
-  
-  .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-right {
-    /******************************************************
-    * 
-    * Arrow Styles 
-    *
-    *******************************************************/ 
-  }
-    
-    .coda-slider-wrapper .coda-nav-left a, .coda-slider-wrapper .coda-nav-right a {
-      /******************************************************
-      * 
-      * Arrow Styles 
-      *
-      *******************************************************/
-      background: #000;
-      color: #fff;
-      padding: 5px;
-      width: 100px; 
-    }
-  
-  .coda-slider-wrapper .coda-nav-left-arrow {
-    /******************************************************
-    * 
-    * Graphical arrow styles 
-    *
-    *******************************************************/
-    width: 25px;
-    height: 25px;
-    background: url(../img/arrow.png) no-repeat top left; 
-    margin-top:50px;
-  }
-
-.coda-slider-wrapper .coda-nav-left-arrow a {
-    /******************************************************
-    * 
-    * Graphical arrow styles 
-    *
-    *******************************************************/
-    width: 0;
-    height: 0;
-    border:none;
-  }
-
-  .coda-slider-wrapper .coda-nav-left-arrow:hover {
-    /************************************************
-    * 
-    * Graphical arrows hover left
-    *
-    *************************************************/
-    background: url(../images/coda/arrow.png) no-repeat bottom left; 
-  }
-  
-  .coda-slider-wrapper .coda-nav-right-arrow {
-    /******************************************************
-    * 
-    * Graphical arrow styles 
-    *
-    *******************************************************/
-    width: 25px;
-    height: 25px;
-    background: url(../images/coda/arrow.png) no-repeat top right; 
-    margin-top:50px;
-  }
-.coda-slider-wrapper .coda-nav-right-arrow a {
-    /******************************************************
-    * 
-    * Graphical arrow styles 
-    *
-    *******************************************************/
-    width: 0;
-    height: 0;
-    background: none; 
-    margin-top:0;
-    border:none;
-  }
-
-  .coda-slider-wrapper .coda-nav-right-arrow:hover {
-    /************************************************
-    * 
-    * Graphical arrows hover right
-    *
-    *************************************************/
-    background: url(../images/arrow.png) no-repeat bottom right; 
-  }
-
-  .coda-slider-wrapper .coda-nav-left-arrow:active, .coda-slider-wrapper .coda-nav-right-arrow:active {
-    /************************************************
-    * 
-    * Graphical arrows active
-    *
-    *************************************************/
-    margin-top: 55px; 
-  }
-  
-  .coda-slider-wrapper .loading {
-    /******************************************************
-    * 
-    * Style for preloader 
-    *
-    *******************************************************/
-    height: 100%;
-    padding: 20px;
-    text-align: center; 
-  }
-
-  
-
-
-.arrows .coda-slider {
-  /******************************************************
-  * 
-  * Margin between slider and arrows 
-  *
-  *******************************************************/
-  margin: 0 10px; 
-}
-
-/**********************************************************************
-*
-* Don't change anything below here unless you know what you're doing 
-*
-***********************************************************************/
-
-.coda-slider-wrapper {
-  /************************************************
-  * 
-  * Wrapper styles 
-  *
-  *************************************************/
-  clear: both;
-  overflow: auto; 
-}
-  
-  .coda-slider-wrapper .coda-slider {
-    /************************************************
-    * 
-    * slider styles 
-    *
-    *************************************************/
-    float: left;
-    overflow: hidden;
-    position: relative; 
-  }
-    
-    .coda-slider-wrapper .coda-slider .panel-container {
-      /************************************************
-      * 
-      * Panel container styles 
-      *
-      *************************************************/
-      position: relative; 
-    }
-      
-      .coda-slider-wrapper .coda-slider .panel-container .panel {
-        /************************************************
-        * 
-        * Panel styles 
-        *
-        *************************************************/
-        display: block;
-        float: left; 
-      }
-  
-  .coda-slider-wrapper .coda-nav {
-    /************************************************
-    * 
-    * Navigation tabs 
-    *
-    *************************************************/ 
-  }
-    
-    .coda-slider-wrapper .coda-nav ul {
-      /************************************************
-      * 
-      * Navigation tabs 
-      *
-      *************************************************/
-      clear: both;
-      display: block;
-      margin: auto;
-      overflow: hidden; 
-    }
-      
-      .coda-slider-wrapper .coda-nav ul li {
-        /************************************************
-        * 
-        * Navigation tabs 
-        *
-        *************************************************/
-        display: inline; 
-      }
-        
-        .coda-slider-wrapper .coda-nav ul li a {
-          /************************************************
-          * 
-          * Navigation tabs 
-          *
-          *************************************************/
-          display: block;
-          float: left;
-          text-decoration: none; 
-        }
-  
-  .coda-slider-wrapper .coda-nav-left-arrow, .coda-slider-wrapper .coda-nav-right-arrow {
-    /************************************************
-    * 
-    * Graphical arrows 
-    *
-    *************************************************/
-    cursor: pointer;
-    float: left;
-  }
-    
-    .coda-slider-wrapper .coda-nav-left-arrow a, .coda-slider-wrapper .coda-nav-right-arrow a {
-      /************************************************
-      * 
-      * Graphical arrows 
-      *
-      *************************************************/
-      display: block; 
-    }
-  
-  .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-right {
-    /************************************************
-    * 
-    * Html arrows 
-    *
-    *************************************************/
-    float: left; 
-  }
-    
-    .coda-slider-wrapper .coda-nav-left a, .coda-slider-wrapper .coda-nav-right a {
-      /************************************************
-      * 
-      * Html arrow styles 
-      *
-      *************************************************/
-      display: block;
-      text-align: center;
-      text-decoration: none; 
-    }
-  
-  .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-left-arrow {
-    /************************************************
-    * 
-    * Html and graphical arrow styles 
-    *
-    *************************************************/
-    clear: both; 
-  }
-
-  .ss-kirk-test{
-    background-image: url(../images/trainers/kirk-pepperdine.png);
 }
