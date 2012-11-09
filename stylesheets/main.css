@@ -35,7 +35,7 @@ blockquote p {
     font-size: 15px;
 }
 h1 {
-    font-family: webdings, "Myriad Pro", Lucida;
+    font-family: "Myriad Pro", Lucida;
     margin-top: 15px;
     margin-bottom: 10px;
     color: #6d2960;
@@ -45,14 +45,14 @@ h1 {
 h2 {
     margin-top: 15px;
     color: #323338;
-    font-family: webdings, "Myriad Pro", Lucida;
+    font-family: "Myriad Pro", Lucida;
     font-size: 140%;
     text-transform: uppercase;
 }
 h3 {
     margin-top: 15px;
     color: #323338;
-    font-family: webdings, "Myriad Pro", Lucida;
+    font-family: "Myriad Pro", Lucida;
     font-size: 130%;
 }
 p {
@@ -452,7 +452,7 @@ li.oe_heading{
     padding-bottom:6px;
     border-bottom:1px solid #ddd;
     text-transform: uppercase;
-    font-family: "Webdings", Helvetica, Arial;
+    font-family: Helvetica, Arial;
 }
 .box-top-nav{
     margin-top: -115px;
@@ -564,7 +564,7 @@ ul.right li a {
     margin-bottom: 20px;
     color: #6d2960;
     border-bottom: 1px solid #999999;
-    font-family: webdings, "Myriad Pro", Lucida;
+    font-family: "Myriad Pro", Lucida;
     text-align: left;
 }
 footer {
@@ -1079,13 +1079,13 @@ h1.equipe {
 
 h2.equipe {
     color: #6D2960;
-    font-family: Webdings, sans-serif;
+    font-family: Lucida, sans-serif;
     font-size: 200%;
     text-align: center;
 }
 h2.equipe2 {
     color: #6D2960;
-    font-family: Webdings, sans-serif;
+    font-family: Lucida, sans-serif;
     font-size: 200%;
     text-align: center;
     padding-top: 15%;
@@ -1100,7 +1100,7 @@ h2.equipe2 {
 #lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
     #lbOuterContainer.black { border: 2px solid #CCCCCC; background-color: #000000; }
 #lbTopContainer, #lbBottomContainer { 
-    font: 0.85em Webdings, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em; font-size: 0.9em;
+    font: 0.85em Lucida, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em; font-size: 0.9em;
     overflow: hidden; margin: 0 auto; padding: 0; position: relative; z-index: 14; display: none;
 }
 #lbTopContainer { overflow: hidden; margin-top: 5px; }
@@ -1156,7 +1156,7 @@ h2.equipe2 {
     position: absolute;
     top: 2em; left:0;
     padding: 0.5em 0.8em;
-    font: 10pt "Webdings MS", Arial, Helvetica, sans-serif !important;
+    font: 10pt "Lucida", Arial, Helvetica, sans-serif !important;
     background: #F4F5FB; 
     border: 1px solid #888888;  
     border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
