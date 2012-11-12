@@ -643,11 +643,12 @@ img.x {
 .bio_right {
     float: left;
     margin: 0 0 0 0px;
-    width: 540px;
+    width: 670px;
     color: #333;
     line-height: 120%;
     text-align: left;
     padding: 20px; 
+    border-left: 1px dotted #4c4c4c;
 } 
 p.trainer {
     text-align: left;
@@ -667,6 +668,14 @@ ul.trainer li {
 img.trainer {
     float: right;
     margin: 10px 0px 10px 0px;
+        border: 3px solid #ffffff;
+    -moz-box-shadow: 0px 8px 15px #444;
+    -webkit-box-shadow: 0px 8px 15px #444;
+    box-shadow: 0px 8px 15px #444;
+}
+img.trainer-sub {
+    float: right;
+    margin: 10px 0px 10px 0px;
 }
 
 /***********************************/
@@ -683,11 +692,10 @@ img.trainer {
 } 
 .bio_trainer {
     float: left;
-    width: 290px; 
+    width: 160px; 
     padding-right: 60px; 
     margin-top: 5px;
     line-height: 15pt;
-   border-right: 1px solid #4c4c4c;
 }
 
 .formations {
@@ -1156,7 +1164,7 @@ h2.equipe2 {
     position: absolute;
     top: 2em; left:0;
     padding: 0.5em 0.8em;
-    font: 10pt "Lucida", Arial, Helvetica, sans-serif !important;
+    font: 10pt "Lucidax", Arial, Helvetica, sans-serif !important;
     background: #F4F5FB; 
     border: 1px solid #888888;  
     border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
