@@ -697,13 +697,18 @@ img.trainer-sub {
     margin-top: 5px;
     line-height: 15pt;
 }
+.kanban {
+    width: 50%; 
+    margin-bottom: 5px;
+    line-height: 15pt;
+}
 
 .formations {
     float: left;
     width: 100%; 
     padding-right: 60px; 
     margin-top: 5px;
-    line-height: 15pt;
+    height: 50%;
 }
 
 p.bio {
