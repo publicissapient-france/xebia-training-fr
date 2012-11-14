@@ -35,7 +35,7 @@ blockquote p {
     font-size: 15px;
 }
 h1 {
-    font-family: "Myriad Pro", Lucida;
+    font-family: "Myriad pro", Lucida, Arial;
     margin-top: 15px;
     margin-bottom: 10px;
     color: #6d2960;
@@ -45,14 +45,14 @@ h1 {
 h2 {
     margin-top: 15px;
     color: #323338;
-    font-family: "Myriad Pro", Lucida;
+    font-family: "Myriad pro", Lucida, Arial;
     font-size: 140%;
     text-transform: uppercase;
 }
 h3 {
     margin-top: 15px;
     color: #323338;
-    font-family: "Myriad Pro", Lucida;
+    font-family: "Myriad pro", Lucida, Arial;
     font-size: 130%;
 }
 p {
