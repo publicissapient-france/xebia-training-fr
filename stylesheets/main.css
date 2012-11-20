@@ -55,7 +55,7 @@
 #cssmenu > ul > li > a {
       margin: 0 2px;
         font-weight: bold;
-        font-size: 11px;
+        font-size: 12px;
 }
 #cssmenu > ul > li:first-child > a {
 }
@@ -96,7 +96,7 @@
 }
 #cssmenu .has-sub ul {
    font-weight: bold;
-        font-size: 11px;
+        font-size: 12px;
   display: none;
   position: absolute;
   width: 250px;
@@ -107,10 +107,10 @@
   *margin-bottom: -1px;
 }
 #cssmenu .has-sub ul li a {
-    border-bottom: 1px dotted #070707;
+    border-bottom: 1px #070707;
 background-color: #323338;
   filter: none;
-  font-size: 10px;
+  font-size: 12px;
   display: block;
   line-height: 120%;
   padding: 10px;
@@ -129,7 +129,7 @@ background-color: #323338;
 }
 #cssmenu .has-sub .has-sub ul li a {
 background-color: #323338;
-  border-bottom: 1px dotted #070707;
+  border-bottom: 1px #070707;
   color:#fff;
 }
 #cssmenu .has-sub .has-sub ul li a:hover {
