@@ -1,6 +1,142 @@
 /*************************/
 /*        General       */
 /************************/
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+  height: 35px;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+        text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 35px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul {
+  float: left;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+     box-shadow: inset  0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  margin-left: -10px;
+}
+#cssmenu > ul > li > a {
+      margin: 0 2px;
+        font-weight: bold;
+        font-size: 11px;
+}
+#cssmenu > ul > li:first-child > a {
+}
+#cssmenu > ul > li:last-child > a {
+}
+#cssmenu > ul > li.active > a {
+  box-shadow: inset  0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  background: #070707;
+  background: -moz-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #26262c), color-stop(100%, #070707));
+  background: -webkit-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: -o-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: -ms-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: linear-gradient(to bottom, #26262c 0%, #070707 100%);
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#26262c', EndColorStr='#070707', GradientType=0);
+}
+#cssmenu > ul > li:hover > a {
+  background: #070707;
+  background: -moz-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #26262c), color-stop(100%, #070707));
+  background: -webkit-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: -o-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: -ms-linear-gradient(top, #26262c 0%, #070707 100%);
+  background: linear-gradient(to bottom, #26262c 0%, #070707 100%);
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#26262c', EndColorStr='#070707', GradientType=0);
+  box-shadow: inset 0 0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+}
+#cssmenu .has-sub {
+  text-align: left;
+  z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+   font-weight: bold;
+        font-size: 11px;
+  display: none;
+  position: absolute;
+  width: 250px;
+  top: 100%;
+  left: 2px;
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+    border-bottom: 1px dotted #070707;
+background-color: #323338;
+  filter: none;
+  font-size: 10px;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #070707;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu .has-sub .has-sub ul li a {
+background-color: #323338;
+  border-bottom: 1px dotted #070707;
+  color:#fff;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+background-color: #070707;
+  margin-top: 0px;
+}
+
 .box-bio {
     float: right;
     padding: 10px 0 10px 20px;
@@ -8,7 +144,16 @@
     width: 560px;
     border-left: dotted 1px;
 }
-
+.small-logo {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+    margin: 5px;
+         box-shadow: inset  0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  padding: 2px;
+}
 .img_bio {
     float: left;
     padding: 10px 0 10px 0px;
@@ -16,7 +161,7 @@
     margin-bottom: 10px;
 }
 body {
-    text-align: justify;
+    text-align: left;
     -webkit-font-smoothing: antialiased;
     background: transparent url(../images/backgrounds/background_body.jpg) repeat;
     font-family: "Myriad Pro", Lucida, Arial;
@@ -192,7 +337,9 @@ img.small {
     -webkit-border-radius: 5px;
     border-radius: 4px;
     font-size: 12px;
-    border: 1px solid #fff;
+      box-shadow: inset  0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
       color: #fff;
 }
 .learnmore-top a {
@@ -206,7 +353,7 @@ img.small {
 /***********************/
 .navbar {
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
-    font-family: AsapRegular, sans-serif;
+    font-family: Futura, AsapRegular, sans-serif;
 }
 span#navbar {
     text-align: right;
@@ -239,61 +386,60 @@ span#navbar {
     margin-top: 25px;
 }
 .oe_wrapper{
-     background-color: #323338;
+    box-shadow: inset  0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+background-color: #323338;
     background-image: -webkit-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Chrome et Safari */
-    background-image: -moz-linear-gradient(top, #323338 0%, #3d3f49 100%); /* firefox */
-    background-image: -ms-linear-gradient(top, #323338 0%, #3d3f49 100%); /* IE10 et + */
-    background-image: -o-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Opera */
-    background-image: linear-gradient(top, #323338 0%, #3d3f49 100%); /* Standard sans prŽfixe */
+    background-image: -moz-linear-gradient(top, #fff 100%); /* firefox */
+    background-image: -ms-linear-gradient(top, #fff 100%); /* IE10 et + */
+    background-image: -o-linear-gradient(top, #fff 100%); /* Opera */
+    background-image: linear-gradient(top, #fff 100%); /* Standard sans prŽfixe */
     left:0px;
     width:100%;
     height:auto;
-    margin-top: 110px;
-    position: absolute;
-   border-top: 1px solid #fff;
+    padding: 5px 0px 0px 0px;
+    margin-top: 109px;
+    position: absolute;      
 }
 ul.oe_menu{
-    background-color: #323338;
-    background-image: -webkit-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Chrome et Safari */
-    background-image: -moz-linear-gradient(top, #323338 0%, #3d3f49 100%); /* firefox */
-    background-image: -ms-linear-gradient(top, #323338 0%, #3d3f49 100%); /* IE10 et + */
-    background-image: -o-linear-gradient(top, #323338 0%, #3d3f49 100%); /* Opera */
-    background-image: linear-gradient(top, #323338 0%, #3d3f49 100%); /* Standard sans prŽfixe */
    padding: 10px 5px 10px 5px;
     list-style:none;
     position:relative;
-    width:935px;
+    width:100%;
     height: 6px;
     float:left;
     clear:both;
     border: 1px;
-        margin-top: 5px;
+    margin-top: 5px;
+    margin-left: 0px;
 }
 ul.oe_menu > li{
-    font-family: "Myriad pro", Helvetica, Arial;
+    font-family: Futura, "Myriad pro", Helvetica, Arial;
     height:55px;
     padding-bottom:2px;
     float:left;
-    position:relative;
+    text-align: center;
 }
 ul.oe_menu > li > a{
     text-align: center;
     font-weight: bold;
     height:15px;
     padding:5px;
-    margin-right:4px;
-    margin-left:4px;
+    margin-right:2px;
+    margin-left:2px;
     color: #fff;
     text-transform: uppercase;
     font-size:12px;
 }
 
 ul.oe_menu div{
-    position:absolute;
-    float: left;
-    top: 25px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    width: 700px;
+    float: none;
     background: transparent url(../images/backgrounds/background_body.jpg) repeat;
-    width:865px;
     height:auto;
     padding:15px 15px 15px 15px;
     display: none;
@@ -1831,8 +1977,8 @@ h2.inscription {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     color: #fff;
-    width: 305px;
-    margin: -20px 10px 10px 300px;
+    width: 400px;
+    margin: 0px 10px 10px 260px;
   }
     
     .coda-slider-wrapper .coda-nav .current {
@@ -2123,4 +2269,49 @@ h2.inscription {
 
   .ss-kirk-test{
     background-image: url(../images/trainers/kirk-pepperdine.png);
+}
+#social_nav_horizontal {
+  margin: -20px 10px 40px 240px;
+  font-family: Futura, Verdana, Sans-Serif;
+  font-size: 18px;
+  color: #8e9090;
+}
+#social_nav_horizontal h3 {
+  display:inline;
+  padding: 0px 10px;
+  border-bottom:dashed 1px #ccc;
+}
+#social_nav_horizontal ul {
+  margin: 0;
+  padding: 0;
+  margin-top:20px;
+}
+#social_nav_horizontal ul li {
+  float: left;
+  padding: 5px 0 0 5px;
+  margin-left: 5px;
+  list-style-type: none;
+}
+#social_nav_horizontal ul li a {
+  padding: 4px 0 0 28px;
+  height: 32px;
+  color: #999;
+  text-decoration: none;
+  line-height: 1.45em;
+}
+.delicious {
+  background:url(../images/social/delicious.png) no-repeat;
+  background-position:0px -1px;
+}
+.facebook {
+  background:url(../images/social/facebook.png) no-repeat;
+  background-position:0px -1px;
+}
+.stumbleupon {
+  background:url(../images/social/stumbleupon.png) no-repeat;
+  background-position:0px -1px;
+}
+.twitter {
+  background:url(../images/social/twitter.png) no-repeat;
+  background-position:0px -1px;
 }
