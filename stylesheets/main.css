@@ -353,7 +353,7 @@ img.small {
 /***********************/
 .navbar {
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
-    font-family: Futura, "Myriad pro", Helvetica, sans-serif;
+    font-family: "Myriad pro", Helvetica, sans-serif;
 }
 span#navbar {
     text-align: right;
