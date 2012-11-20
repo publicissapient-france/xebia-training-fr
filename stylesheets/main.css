@@ -181,7 +181,7 @@ blockquote p {
 }
 
 h1 {
-    font-family: Helvetica, "Myriad pro", Lucida, Arial;
+    font-family: "Myriad pro", Helvetica, Arial;
     margin-top: 15px;
     margin-bottom: 10px;
     color: #6d2960;
@@ -607,7 +607,7 @@ ul.right li a {
     margin-bottom: 20px;
     color: #6d2960;
     border-bottom: 1px solid #999999;
-    font-family: "Myriad Pro", Lucida;
+    font-family: "Myriad pro",Helvetica, Arial;
     text-align: left;
 }
 footer {
