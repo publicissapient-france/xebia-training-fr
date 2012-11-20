@@ -19,7 +19,7 @@
   clear: both;
 }
 #cssmenu a {
-        text-transform: uppercase;
+  text-transform: uppercase;
   color: #ffffff;
   display: inline-block;
   font-size: 12px;
@@ -181,7 +181,7 @@ blockquote p {
 }
 
 h1 {
-    font-family: "Myriad pro", Lucida, Arial;
+    font-family: Helvetica, "Myriad pro", Lucida, Arial;
     margin-top: 15px;
     margin-bottom: 10px;
     color: #6d2960;
@@ -199,14 +199,14 @@ h1 a:visited {
 h2 {
     margin-top: 15px;
     color: #323338;
-    font-family: "Myriad pro", Lucida, Arial;
+    font-family: Helvetica, "Myriad pro", Lucida, Arial;
     font-size: 140%;
     text-transform: uppercase;
 }
 h3 {
     margin-top: 15px;
     color: #323338;
-    font-family: "Myriad pro", Lucida, Arial;
+    font-family: Helvetica, "Myriad pro", Lucida, Arial;
     font-size: 130%;
 }
 p {
@@ -353,7 +353,7 @@ img.small {
 /***********************/
 .navbar {
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
-    font-family: Futura, AsapRegular, sans-serif;
+    font-family: Futura, "Myriad pro", Helvetica, sans-serif;
 }
 span#navbar {
     text-align: right;
@@ -415,7 +415,6 @@ ul.oe_menu{
     margin-left: 0px;
 }
 ul.oe_menu > li{
-    font-family: Futura, "Myriad pro", Helvetica, Arial;
     height:55px;
     padding-bottom:2px;
     float:left;
@@ -1746,11 +1745,18 @@ ul.coaching li a:hover {
     opacity: 0.9;
 }
 
+h1.coaching {
+    margin:20px 10px 20px 40px;
+    font-size: 180%;
+    text-transform: uppercase; 
+    text-align: center; 
+}
 h2.coaching {
     color: #6d2960;
     margin:20px 10px 20px 40px;
     font-size: 180%;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+        text-align: center;  
 }
 h2.contact {
     color: #6d2960;
@@ -1966,19 +1972,14 @@ h2.inscription {
       }
   
   .coda-slider-wrapper .coda-nav {
-   border:1px solid #d3d3d3;
-     -moz-border-radius:1px; /* FF1+ */
-    -webkit-border-radius:1px; /* Saf3-4 */
-    border-radius:5px;
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    font-size: 14px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    color: #fff;
-    width: 400px;
-    margin: 0px 10px 10px 260px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 0px 0px 10px 0px;
+       overflow:hidden;
+    border: 1px solid #d3d3d3;
+  text-align: center;
+    width: 370px;
+    padding: 2px;
+    margin: -20px 10px 10px 260px;
   }
     
     .coda-slider-wrapper .coda-nav .current {
@@ -1997,7 +1998,7 @@ h2.inscription {
       *
       *******************************************************/
 
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 14px;
     border-radius: 5px;
     margin: 1px;
@@ -2271,25 +2272,28 @@ h2.inscription {
     background-image: url(../images/trainers/kirk-pepperdine.png);
 }
 #social_nav_horizontal {
-  margin: -20px 10px 40px 240px;
-  font-family: Futura, Verdana, Sans-Serif;
-  font-size: 18px;
+  margin: -20px 10px 40px 10px;
+  font-family: "Myriad Pro", Verdana, Sans-Serif;
+  font-size: 14px;
   color: #8e9090;
 }
 #social_nav_horizontal h3 {
-  display:inline;
+  top: 20px;
+  text-transform: uppercase;
   padding: 0px 10px;
   border-bottom:dashed 1px #ccc;
+  text-align: center;
 }
 #social_nav_horizontal ul {
   margin: 0;
   padding: 0;
   margin-top:20px;
+  margin-left: 30%;
 }
 #social_nav_horizontal ul li {
   float: left;
   padding: 5px 0 0 5px;
-  margin-left: 5px;
+  margin-left: 20px;
   list-style-type: none;
 }
 #social_nav_horizontal ul li a {
@@ -2313,5 +2317,13 @@ h2.inscription {
 }
 .twitter {
   background:url(../images/social/twitter.png) no-repeat;
+  background-position:0px -1px;
+}
+.viadeo {
+  background:url(../images/social/viadeo.png) no-repeat;
+  background-position:0px -1px;
+}
+.linkedin {
+  background:url(../images/social/linkedin.png) no-repeat;
   background-position:0px -1px;
 }
