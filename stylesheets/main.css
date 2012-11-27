@@ -1979,13 +1979,11 @@ h2.inscription {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
        overflow:hidden;
-    border: 1px solid #d3d3d3;
   text-align: center;
-    width: 370px;
+    width: 940px;
     padding: 2px;
     margin-top: -20px;
-    margin-bottom:10px;
-    margin-left: 30%; 
+    margin-bottom:10px;  
   }
     
     .coda-slider-wrapper .coda-nav .current {
@@ -2006,11 +2004,9 @@ h2.inscription {
 
     padding: 5px 10px;
     font-size: 14px;
-    border-radius: 5px;
     margin: 1px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     color: #000;
+        border-right: 1px solid rgba(164,166,181,0.8);
     }
     
     .coda-slider-wrapper .coda-nav a:hover {
