@@ -1,0 +1,3 @@
+# Robots.txt file for training.xebia.fr
+User-agent: *
+Sitemap: http://training.xebia.fr/sitemap.xml

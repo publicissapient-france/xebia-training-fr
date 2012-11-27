@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://training.xebia.fr/</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/index.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/catalogue-xebia-training-2013.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/a-propos.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/inscription.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-intra-entreprise.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/devenir-scrum-master.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/xebia-essentials.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/mentions-legales.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/conditions-generales-de-vente.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-techniques.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/jeff-sutherland.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/petra-skapa.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/joseph-little.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/arlen-bankston.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/xavier-quesada.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/gilles-mantel.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/yannick-quenechdu.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/nathaniel-richand.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/dan-north.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/alexandre-cuva.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/gojko-adzic.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/patrick-sarfati.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/michel-zam.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/david-anderson.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/olav-maassen.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/kirk-pepperdine.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/antonio-goncalves.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/pascal-ognibene.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/10gen.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/cloudera.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formations-java.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-java-performance-tuning.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-java-ee-6.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-developpeur-java-moderne.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-scala.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-rest.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-applications-java-production.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-tdd-software-craftsmanship.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-troubleshooting-en-java.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-maven.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-devops-pour-java.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-cloud-computing.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-java-concurrency-specialist.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-big-data-nosql/formations-big-data-nosql.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-big-data-nosql/formation-mongodb.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-big-data-nosql/formation-hadoop-certifiante-developpeurs.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-big-data-nosql/formation-hadoop-certifiante-administrateurs.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formations-java-essentials.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-java-fondamentaux-1-jour.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-java-fondamentaux-2-jours.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/formation-java-fondamentaux-2.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-mobiles/formation-android.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-web/formations-web.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-web/formation-html-5.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-deployit.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-methodes-agiles.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrummaster-certifiante-francais.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrum-product-owner-certifiante-francais.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrummaster-certifiante-anglais.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrum-product-owner-certifiante-anglais.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-business-agility-it-leaders.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-user-stories-to-acceptance-tests.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-introduction-a-scrum.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrum-intra-entreprise.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-agile-managers.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrum-un-coach-en-pratique.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-extreme-programming.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-savoir-rediger-des-user-stories.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-specifications-executables.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-estimation-et-planification-agile.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-construire-une-equipe-ui-agile.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-faire-emerger-son-business-model-agile.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-agile-games.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-uml-agile.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-introduction-kanban.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-kanban.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-kanban-management-visuel.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-bdd-kanban.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-developpement-logiciel-avec-le-lean.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrum-product-owner-academy.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-coach-academy.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-scrummaster-academy.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/coaching-agile.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/contact.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/bon-de-commande.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-mobiles/formations-mobilite.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formation-management-3-0.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-java-performance-tuning.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-java-ee-6.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-developpeur-java-moderne.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-scala.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-rest.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-applications-java-production.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-tdd-software-craftsmanship.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-troubleshooting-java.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-maven.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-devops-java.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-cloud-computing.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-java-jee/programmes/programme-formation-java-concurrency-specialist.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-big-data-nosql/programmes/programme-formation-mongodb.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-big-data-nosql/programmes/programme-formation-hadoop-developpeurs.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-big-data-nosql/programmes/programme-formation-hadoop-administrateurs.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-mobiles/programmes/programme-formation-android.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/formations-web/programmes/programme-formation-html-5.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-scrummaster-certifiante-francais.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-scrum-product-owner-certifiante-francais.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-scrummaster-certifiante-anglais.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-scrum-product-owner-certifiante-anglais.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-agility-it-leaders.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-user-stories-acceptance-tests.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-introduction-scrum.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-scrum-intra-entreprise.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-agile-managers.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-scrummaster-coach-en-pratique.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-extreme-programming.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-kanban.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-developpement-logiciel-lean.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/programmes/programme-formation-scrummaster-academy.pdf</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://training.xebia.fr/nos-formateurs/veronique-messager.html</loc>
+  <lastmod>2012-11-27T12:49:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+</urlset>
