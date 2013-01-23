@@ -2330,7 +2330,7 @@ img.border {
 .post table a:hover { text-decoration:underline; }
 .post table img { vertical-align:middle; }
 
-.post-page { width:100%; margin:0 60px; }
+.post-page { width:100%; margin:0 auto; }
 .post-page h2 { color:#6d2960; font-size:30px; text-transform:uppercase; margin-bottom:0.5em; }
 .post-page h2 a { color:#6d2960; font-size:30px; text-transform:uppercase; margin-bottom:0.5em; }
 .post-page p.dt { color:#737373; font-style:italic; margin-bottom:1em; }
