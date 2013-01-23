@@ -1,0 +1,491 @@
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*    Page Color */
+/*--------------------------------------------------------------------------------------*/
+
+/**
+*
+*  Lime Default
+*
+*/
+
+  .flex-control-paging li a:hover,
+  #Flexslider-Carousel .flex-direction-nav a:hover,
+  .flex-control-paging li a.flex-active,
+  .brand span,
+  .navbar .nav > .active > a, 
+  .navbar .nav > .active > a:hover, 
+  .navbar .nav > li > a:hover, 
+  .navbar .nav > .active > a:focus,
+  .custom-btn:hover,
+  .custom-btn:active {
+    background-color: #6d2960;
+  }
+  a, 
+  ul.footer-nav li.active a,
+  footer a:hover,
+  .single-item a:hover, 
+  .navbar .nav li.dropdown.open > .dropdown-toggle, 
+  .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .filter .btn:hover {
+  }
+  .filter .btn.selected,
+  .price-plan-footer .custom-btn {
+      background: #6d2960;
+  }
+
+/*Title Box*/
+  section#title h2 span {
+    background-color: rgba(133, 204, 159, 0.9);
+  }
+  /*IE*/
+  .lt-ie9 section#title h2 span { #6d2960;
+    background-color: #6d2960;
+  }
+
+/**
+*
+*  pink 
+*
+*/
+
+  .pink .flex-control-paging li a:hover,
+  .pink #Flexslider-Carousel .flex-direction-nav a:hover,
+  .pink .flex-control-paging li a.flex-active,
+  .pink .brand span,
+  /*.pink .flexslider h2 span,*/
+  .pink .navbar .nav > .active > a, 
+  .pink .navbar .nav > .active > a:hover, 
+  .pink .navbar .nav > li > a:hover, 
+  .pink .navbar .nav > .active > a:focus,
+  .pink .custom-btn:hover,
+  .pink .custom-btn:active {
+    background-color: #ed2891;
+  }
+  .pink a, 
+  .pink ul.footer-nav li.active a,
+  .pink footer a:hover,
+  .pink .single-item a:hover, 
+  .pink .navbar .nav li.dropdown.open > .dropdown-toggle, 
+  .pink .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .pink .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .pink .filter .btn:hover {
+    color: #ed2891;
+  }
+  .pink .filter .btn.selected,
+  .pink .price-plan-footer .custom-btn {
+      background: #ed2891;
+  }
+
+  /*Title Box*/
+  .pink section#title h2 span {
+    background-color: rgba(237, 40, 145, 0.9);
+  }
+  /*IE*/
+  .lt-ie9 .pink section#title h2 span {
+    background-color: #ed2891;
+  }
+
+/**
+*
+*  Blue
+*
+*/
+
+  .blue .flex-control-paging li a:hover,
+  .blue #Flexslider-Carousel .flex-direction-nav a:hover,
+  .blue .flex-control-paging li a.flex-active,
+  .blue .brand span,
+  /*.blue .flexslider h2 span,*/
+  .blue .navbar .nav > .active > a, 
+  .blue .navbar .nav > .active > a:hover, 
+  .blue .navbar .nav > li > a:hover, 
+  .blue .navbar .nav > .active > a:focus,
+  .blue .custom-btn:hover,
+  .blue .custom-btn:active {
+    background-color: #2B9CF3;
+  }
+  .blue a, 
+  .blue ul.footer-nav li.active a,
+  .blue footer a:hover,
+  .blue .single-item a:hover, 
+  .blue .navbar .nav li.dropdown.open > .dropdown-toggle, 
+  .blue .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .blue .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .blue .filter .btn:hover {
+    color: #2B9CF3;
+  }
+  .blue .filter .btn.selected,
+  .blue .price-plan-footer .custom-btn {
+      background: #2B9CF3;
+  }
+
+  /*Title Box*/
+  .blue section#title h2 span {
+    background-color: rgba(43, 156, 243, 0.9);
+  }
+  /*IE*/
+  .lt-ie9 .blue section#title h2 span {
+    background-color: #2B9CF3;
+  }
+
+/**
+*
+*  Orange
+*
+*/
+
+  .orange .flex-control-paging li a:hover,
+  .orange #Flexslider-Carousel .flex-direction-nav a:hover,
+  .orange .flex-control-paging li a.flex-active,
+  .orange .brand span,
+  /*.orange .flexslider h2 span,*/
+  .orange .navbar .nav > .active > a, 
+  .orange .navbar .nav > .active > a:hover, 
+  .orange .navbar .nav > li > a:hover, 
+  .orange .navbar .nav > .active > a:focus,
+  .orange .custom-btn:hover,
+  .orange .custom-btn:active {
+    background-color: #F3492B;
+  }
+  .orange a, 
+  .orange ul.footer-nav li.active a,
+  .orange footer a:hover,
+  .orange .single-item a:hover, 
+  .orange .navbar .nav li.dropdown.open > .dropdown-toggle, 
+  .orange .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .orange .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .orange .filter .btn:hover {
+    color: #F3492B;
+  }
+  .orange .filter .btn.selected,
+  .orange .price-plan-footer .custom-btn {
+      background: #F3492B;
+  }
+
+  /*Title Box*/
+  .orange section#title h2 span {
+    background-color: rgba(243, 73, 43, 0.9);
+  }
+  /*IE*/
+  .lt-ie9 .orange section#title h2 span {
+    background-color: #F3492B;
+  }
+
+/**
+*
+*  red
+*
+*/
+
+  .red .flex-control-paging li a:hover,
+  .red #Flexslider-Carousel .flex-direction-nav a:hover,
+  .red .flex-control-paging li a.flex-active,
+  .red .brand span,
+  /*.red .flexslider h2 span,*/
+  .red .navbar .nav > .active > a, 
+  .red .navbar .nav > .active > a:hover, 
+  .red .navbar .nav > li > a:hover, 
+  .red .navbar .nav > .active > a:focus,
+  .red .custom-btn:hover,
+  .red .custom-btn:active {
+    background-color: #EA2E49;
+  }
+  .red a, 
+  .red ul.footer-nav li.active a,
+  .red footer a:hover,
+  .red .single-item a:hover, 
+  .red .navbar .nav li.dropdown.open > .dropdown-toggle, 
+  .red .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .red .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .red .filter .btn:hover {
+    color: #EA2E49;
+  }
+  .red .filter .btn.selected,
+  .red .price-plan-footer .custom-btn {
+      background: #EA2E49;
+  }
+
+  /*Title Box*/
+  .red section#title h2 span {
+    background-color: rgba(234, 46, 73, 0.9);
+  }
+  /*IE*/
+  .lt-ie9 .red section#title h2 span {
+    background-color: #EA2E49;
+  }
+
+/**
+*
+*  yellow
+*
+*/
+
+  .yellow .flex-control-paging li a:hover,
+  .yellow #Flexslider-Carousel .flex-direction-nav a:hover,
+  .yellow .flex-control-paging li a.flex-active,
+  .yellow .brand span,
+  /*.yellow .flexslider h2 span,*/
+  .yellow .navbar .nav > .active > a, 
+  .yellow .navbar .nav > .active > a:hover, 
+  .yellow .navbar .nav > li > a:hover, 
+  .yellow .navbar .nav > .active > a:focus,
+  .yellow .custom-btn:hover,
+  .yellow .custom-btn:active {
+    background-color: #FF9C40;
+  }
+  .yellow a, 
+  .yellow ul.footer-nav li.active a,
+  .yellow footer a:hover,
+  .yellow .single-item a:hover, 
+  .yellow .navbar .nav li.dropdown.open > .dropdown-toggle, 
+  .yellow .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .yellow .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .yellow .filter .btn:hover {
+    color: #FF9C40;
+  }
+  .yellow .filter .btn.selected,
+  .yellow .price-plan-footer .custom-btn {
+      background: #FF9C40;
+  }
+
+  /*Title Box*/
+  .yellow section#title h2 span {
+    background-color: rgba(255, 156, 64, 0.9);
+  }
+  /*IE*/
+  .lt-ie9 .yellow section#title h2 span {
+    background-color: #FF9C40;
+  }
+
+/**
+*
+*  purple
+*
+*/
+
+  .purple .flex-control-paging li a:hover,
+  .purple #Flexslider-Carousel .flex-direction-nav a:hover,
+  .purple .flex-control-paging li a.flex-active,
+  .purple .brand span,
+  /*.purple .flexslider h2 span,*/
+  .purple .navbar .nav > .active > a, 
+  .purple .navbar .nav > .active > a:hover, 
+  .purple .navbar .nav > li > a:hover, 
+  .purple .navbar .nav > .active > a:focus,
+  .purple .custom-btn:hover,
+  .purple .custom-btn:active {
+    background-color: #766194;
+  }
+  .purple a, 
+  .purple ul.footer-nav li.active a,
+  .purple footer a:hover,
+  .purple .single-item a:hover, 
+  .purple .navbar .nav li.dropdown.open > .dropdown-toggle, 
+  .purple .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .purple .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .purple .filter .btn:hover {
+    color: #766194;
+  }
+  .purple .filter .btn.selected,
+  .purple .price-plan-footer .custom-btn {
+      background: #766194;
+  }
+
+  /*Title Box*/
+  .purple section#title h2 span {
+    background-color: rgba(118, 97, 148, 0.9);
+  }
+  /*IE*/
+  .lt-ie9 .purple section#title h2 span {
+    background-color: #766194;
+  }
+
+
+
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*    Boxed */
+/*--------------------------------------------------------------------------------------*/
+
+.color-home-01 {
+  background: none repeat scroll 0 0 rgba(77, 63, 97, 0.97);
+}
+.lt-ie9 .color-home-01 { /* For IE8*/
+  background-color: #4D3F61;
+}
+
+.color-pricing-tables {
+  background: none repeat scroll 0 0 rgba(51, 51, 51, 0.97);
+}
+.lt-ie9 .color-pricing-tables { /* For IE8*/
+  background-color: #333333;
+}
+
+.color-typo {
+  background: none repeat scroll 0 0 rgba(190, 42, 42, 0.9);
+}
+.lt-ie9 .color-typo { /* For IE8*/
+  background-color: #BE2A2A;
+}
+
+.color-typo-middle {
+  background: none repeat scroll 0 0 rgba(3, 140, 174, 0.9);
+}
+.lt-ie9 .color-typo-middle { /* For IE8*/
+  background-color: #038cae;
+}
+
+.color-contact {
+  background: none repeat scroll 0 0 rgba(77, 63, 97, 0.93);
+}
+.lt-ie9 .color-contact { /* For IE8*/
+  background-color: #4D3F61;
+}
+
+
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*    Background Images */
+/*--------------------------------------------------------------------------------------*/
+
+#bg-testimonial {
+    background-image: url("../img/testimonial.jpg");
+}
+
+@media (min-width: 768px) { 
+
+/**
+*
+*  Header Title BG images
+*
+*/
+
+  #title { /*default*/
+    background-image: url("../img/default.png");
+    background-position:0 -12em;
+  }
+   #contact { /*default*/
+    background-image: url("../img/contact.png");
+    background-position:0 -12em;
+  }
+  .portfolio #title {
+    background-image: url("../img/portfolio.jpg");
+    background-position:0 0;
+  }
+  .typography #title {
+    background-image: url("../img/typography.jpg");
+    background-position:0 -0.5em;
+  }
+  .price-table #title {
+    background-image: url("../img/price-table.png");
+    background-position:0 0;
+  }
+  .single-page #title {
+    background-image: url("../img/typo-middle.jpg");
+    background-position:0 -20em;
+  }
+   .single-page #title-csm-jeff {
+    background-image: url("../img/csm-jeff.png");
+    background-position:0 -20em;
+  }
+   #title-home {
+    background-image: url("../img/home.png");
+    background-position:0 -20em;
+  }
+  .single-desc #title {
+    background-image: url("../img/single-desc.jpg");
+    background-position:0 -12em;
+  }
+  
+  #title-contact {
+    background-image: url("../img/contact.png");
+    background-position:0 -2em;
+  }
+   #title-agile {
+    background-image: url("../img/methodes-agiles.png");
+    background-position:0 -2em;
+  }
+   #title-tech {
+    background-image: url("../img/tech.png");
+    background-position:0 -2em;
+  }
+   #title-tech-essentials {
+    background-image: url("../img/tech-essentials.png");
+    background-position:0 -2em;
+  }
+  #title-tech-java {
+    background-image: url("../img/java.png");
+    background-position:0 -2em;
+  }
+  #title-big-data {
+    background-image: url("../img/big-data.png");
+    background-position:0 -2em;
+  }
+  #title-hadoop {
+    background-image: url("../img/hadoop.png");
+    background-position:0 -2em;
+  }
+  #title-mobilite {
+    background-image: url("../img/android.png");
+    background-position:0 -2em;
+  }
+   #title-web {
+    background-image: url("../img/web.png");
+    background-position:0 -2em;
+  }
+    #title-mongodb {
+    background-image: url("../img/mongodb.png");
+    background-position:0 -2em;
+  }
+      #title-scrumacademy {
+    background-image: url("../img/scrumacademy.png");
+    background-position:0 -2em;
+  }
+  #title-java-perf {
+    background-image: url("../img/performance-java.png");
+    background-position:0 -2em;
+  }
+  #title-post {
+    background-image: url("../img/performance-java.png");
+    background-position:0 -2em;
+  }
+  #title-post-page {
+    background-image: url("../img/performance-java.png");
+    background-position:0 -2em;
+  }
+
+  /**
+  *
+  *  remove BackGround Position in IE 8 ( not supported by backgroundSize.js)
+  *
+  */
+
+  .lt-ie9 #title  {
+    background-position:0 0;
+  }
+
+
+/**
+*
+*  Box BG images
+*
+*/
+
+  #bg-pricing-tables {
+    background-image: url("../img/price-table.jpg");
+  }
+  #bg-typo {
+    background-image: url("../img/typo-center.jpg");
+  }
+  #bg-typo-middle {
+    background-image: url("../img/typo-middle.jpg");
+  }
+  #bg-typo-next-training {
+    background-image: url("../img/home-big-data.png");
+  }
+   #bg-typo-home-big-data {
+    background-image: url("../img/next-training/home-big-data.png");
+  }
+
+
+
+} /*dont delete this*/

@@ -1,0 +1,8 @@
+V2.1 - 29.09.2012
+	Updated fade issue on cycle slider - scripts.js
+	Added no transition ( removed inheritance ) to ul.testimonial li - style.css
+V2 - 29.09.2012
+	Re-Released
+	Made several Changes, suggest you update all files
+V1.0 - 09.09.2012
+	Released

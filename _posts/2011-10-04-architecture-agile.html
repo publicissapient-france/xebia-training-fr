@@ -1,0 +1,51 @@
+--- 
+tags: méthodes agiles
+title: Architecture agile
+layout: post
+excerpt: <p>Les méthodes agiles articulent le développement autour d’équipes dotées d’une grande autonomie technique – elles comprennent typiquement chacune au moins un architecte ou développeur très expérimenté, susceptible de structurer les choix de conception (nous avons dessiné le profil de cet architecte agile dans <a href="http://blog.xebia.fr/2008/01/29/un-nouveau-type-darchitecte-larchitecte-agile/">un article paru il y a quelques mois</a>). </p><p>Cette approche décentralisée des choix d’implémentation conduit naturellement à une interrogation - comment, dans ces conditions, garantir la consistance globale de l’architecture du système ?</p>
+---
+<p>Les méthodes agiles articulent le développement autour d’équipes dotées d’une grande autonomie technique – elles comprennent typiquement chacune au moins un architecte ou développeur très expérimenté, susceptible de structurer les choix de conception (nous avons dessiné le profil de cet architecte agile dans <a href="http://blog.xebia.fr/2008/01/29/un-nouveau-type-darchitecte-larchitecte-agile/">un article paru il y a quelques mois</a>). Cette approche décentralisée des choix d’implémentation conduit naturellement à une interrogation : comment, dans ces conditions, garantir la consistance globale de l’architecture du système ?</p>
+<!--more-->
+
+Les méthodes agiles à proprement parler ne fournissent pas de solution clé en main dans ce domaine. C’est donc au travers du système de valeurs et des retours d’expérience que l’on cherchera à répondre à cette question.
+
+Le premier élément de réponse provient de l’une des pratiques issues de l’eXtreme Programming et nommée la <em>métaphore</em>. Une métaphore est une abstraction de niveau élevé destinée à décrire les principes d’architecture mis en oeuvre dans un système ou un sous-système. Difficile à mettre en forme, le principe de métaphore se traduit souvent par un bref dossier d’architecture – 10 pages maximum – que chaque équipe est chargée de maintenir et de publier (généralement dans un wiki).
+Un très bon exemple illustrant ce principe de la métaphore a été récemment fourni par l’équipe Chrome de Google, qui a publié sa métaphore sous la forme d’<a href="http://www.google.com/googlebooks/chrome/index.html">une BD de 38 pages</a>. Y sont expliqués la vision du produit et les principes architecturaux qui guident sa mise en oeuvre, ainsi que les raisons des choix réalisés.
+
+La seconde réponse à la question de l’architecture est dérivée d’une pratique d’ingénierie héritée du Lean Manufacturing, et que l’on retrouve dans la plupart des méthodologies, agiles ou non : les standards de développement.
+
+Les systèmes organiques mis en place par certains acteurs majeurs du Web fonctionnent sur ce principe : une myriade d’équipes de petite taille sont chargées de développer des services ou composants fortement intégrés. Chaque équipe inclut un technicien chevronné qui prend le rôle de « <em>Architecture Owner</em> ». Elle conservent une totale autonomie technique et la maîtrise de leur cycle de vie mais sont soumises à un ensemble de règles qui régissent la façon dont ces composants sont interfacés avec le reste du système.
+
+Ces règles couvrent, sans exhaustivité :
+<ul>
+	<li>l’exploitabilité (socle technique pris en charge par les équipes d’exploitation)</li>
+	<li>la supervision (indicateurs, alertes, traces, journaux, etc.)</li>
+	<li>l’assemblage (afin d’automatiser les déploiements)</li>
+	<li>la qualité de service (charge, temps de réponse, sécurité, etc.)</li>
+	<li>l’interopérabilité (protocoles et paradigmes d’échange, modalités d’intégration, etc.)</li>
+</ul>
+Ces règles sont mises au point par le collège des architectes (<em>architecture owners</em>) et consolidées par un « <em>Chief Architect</em> » dont le rôle est de les diffuser et d’en garantir la consistance. Des ateliers sont régulièrement organisés, réunissant les architectes des différents produits, afin d’échanger sur les solutions aux problématiques transverses qui peuvent se poser.
+
+Au besoin, certains concepts d’architecture <strong><em>éprouvés</em></strong> peuvent être encapsulés dans des composants partagés. On peut, par exemple, mettre à disposition des équipes une API de persistance qui encapsule les stratégies de partitionnement des bases de données et la gestion transactionnelle. Une autre API prendra en charge les paradigmes d’échange (essentiellement asynchrone) mis en oeuvre dans l’architecture. Ces développements sont idéalement pris en charge par des équipes <em>ad hoc</em>, et placés sous la responsabilité collective. Si le contexte l’exige, on peut constituer une équipe dédiée (cf. un peu plus bas).
+
+Notons que cette approche n’est envisageable que si l’architecture globale est fortement modulaire.
+
+Une autre approche possible est mise en place sur certains projets agiles de grande taille. Cette solution consiste, au sein d’un projet nécessitant plusieurs équipes, à spécialiser une équipe dans les aspects architecturaux (on parle d’ « Architecture Team », en complément de « Feature Teams » chargées de développer les fonctionnalités du produit). C’est une telle organisation que nous vous avons présentée dans <a href="http://blog.xebia.com/tag/prorail/">ce retour d’expérience</a>. Sur des projets de très grande taille, d’autres équipes spécialisées peuvent émerger : intégration du système, équipe de tests dédiée, etc.
+
+Quelle que soit la structure choisie, on retiendra un certain nombre de principes, exprimés par Scott Ambler (Practice Leader Agile Development chez IBM Rational) dans <a href="http://www.agilejournal.com/content/view/146/">un article parut en 2006 dans le Agile Journal</a> :
+<ul>
+	<li><strong>Modéliser à plusieurs</strong> – l’architecture et la modélisation devraient être réalisées en groupe, afin de bénéficier de l’expérience de chacun et de consolider une vision commune, une culture collective</li>
+	<li><strong>Se focaliser sur la collaboration plutôt que sur la documentation</strong> – un architecte agile est un membre actif des équipes de développement, et non un simple producteur de documents à destination des dites équipes ; cela ne signifie pas qu’il ne faut pas documenter, mais la documentation doit être vue comme un effort secondaire</li>
+	<li><strong>Prouver par le code</strong> – le prototypage doit être systématisé afin de lever les risques au plus tôt</li>
+	<li><strong>Rester simple</strong> – une des pierres angulaire du développement agile : le modèle et l’architecture n’ont besoin de satisfaire que les besoins identifiés</li>
+	<li><strong>Utiliser les outils les plus simples</strong> – bien souvent, un simple tableau et quelques marqueurs suffisent</li>
+	<li><strong>Adresser les grandes problématiques très tôt</strong> – les paradigmes d’architecture doivent être identifiés dès les phases initiales du projet, sous la forme d’une vision (ou d’une métaphore, pour reprendre la terminologie XP) ; à l’échelle du SI, cela peut se traduire par un plan d’urbanisme de très haut niveau, assorti de règles d’intégration de type SOA (mise en place de services HTTP, mode de communication prioritairement asynchrone, politiques de gestion de versions et d’adressage, modalités d’intégration des IHM, etc.)</li>
+	<li><strong>Penser aux détails « just-in-time »</strong> – les détails du modèle et de l’architecture sont élaborés le plus tard possible par les équipes de développement ; au même titre que le développement, la conception est une activité continue</li>
+	<li><strong>Permettre à l’architecture d’émerger avec le temps</strong> – même si une vision est conçue au départ, les détail émergerons au rythme des évolutions du système</li>
+	<li><strong>Voyager léger</strong> – ne pas écrire 50 pages quand 5 suffisent ; ne pas écrire 5 pages quand un diagramme suffit ; ne pas faire un diagramme si une métaphore suffit.</li>
+	<li><strong>Maintenir quelques diagrammes de haut niveau</strong> – voyager léger ne signifie pas que toute documentation disparaît ; quelques diagrammes permettant de naviguer dans l’architecture sont utiles</li>
+	<li><strong>Rester flexible</strong> – le type de diagramme de haut niveau dépend du système et du contexte ; ils ne devraient pas faire l’objet d’une règle rigide</li>
+	<li><strong>Publier les modèles d’architecture</strong> – ils doivent être accessibles aux membres de l’équipe et à tous ceux qui souhaitent les consulter</li>
+	<li>Piloter l’architecture par les besoins</li>
+</ul>
+Écrit par Guillaume Bodet
