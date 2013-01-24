@@ -530,7 +530,7 @@ section#title h1 {
   margin: 0;
 }
 .above-title-2 { 
-  height: 8px; /* Height of the navbar */
+  height: 30px; /* Height of the navbar */
 }
 
 .title-spacer {
@@ -560,7 +560,7 @@ section#title-csm-jeff h1 span {
   transition:opacity .7s ease-in-out;
 }
 #title-home  {
-    height: 500px;
+    height: 450px;
 }
 #title-post  {
     height: auto;
@@ -742,9 +742,11 @@ section#title-csm-jeff h1 span {
   -ms-transition:opacity .7s ease-in-out;
   transition:opacity .7s ease-in-out;
 }
+#title-tech-java {
+      height: 350px;
+}
 #title-tech-java h1 span {
-  display: inline-block;
-  padding: 28px; padding: 2.4rem;
+  display: inline-block; padding: 2.4rem;
   background: #202020;
   color: #fff;
   width: 450px;
@@ -754,6 +756,9 @@ section#title-csm-jeff h1 span {
   -webkit-transition:opacity .7s ease-in-out;
   -ms-transition:opacity .7s ease-in-out;
   transition:opacity .7s ease-in-out;
+}
+#title-mobilite {
+height: 310px;
 }
 #title-mobilite h1 span {
   display: inline-block;
@@ -767,6 +772,9 @@ section#title-csm-jeff h1 span {
   -webkit-transition:opacity .7s ease-in-out;
   -ms-transition:opacity .7s ease-in-out;
   transition:opacity .7s ease-in-out;
+}
+#title-web {
+ height: 310px;
 }
 #title-web h1 span {
   display: inline-block;
