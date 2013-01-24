@@ -560,7 +560,7 @@ section#title-csm-jeff h1 span {
   transition:opacity .7s ease-in-out;
 }
 #title-home  {
-    height: 450px;
+    height: 65%;
 }
 #title-post  {
     height: auto;
@@ -604,7 +604,7 @@ section#title-csm-jeff h1 span {
   padding: 28px; padding: 2.4rem;
   background: #202020;
   color: #fff;
-  width: 450px;
+  width: 40%;
   opacity:0.9;
   -moz-transition:opacity .7s ease-in-out;
   -o-transition:opacity .7s ease-in-out;
