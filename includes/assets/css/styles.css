@@ -85,6 +85,15 @@ body
     background: linear-gradient(top, #ffffff 0%, #f2f2f2 100%); /* W3C */       
 }
 
+#v-nav >ul >li:hover
+{
+   cursor: pointer;
+     border:1px solid #999;
+  -moz-box-shadow:0 0 30px #999 inset;
+  -webkit-box-shadow:0 0 30px #999 inset;
+  box-shadow:0 0 30px #999 inset;
+}
+
 #v-nav >ul >li.current
 {
     color: black;
@@ -100,6 +109,14 @@ body
 #v-nav >ul >li.first.current
 {
     border-bottom: 1px solid #DDD;
+}
+
+#v-nav >ul >li.first.current:hover
+{
+         border:1px solid #999;
+  -moz-box-shadow:0 0 30px #999 inset;
+  -webkit-box-shadow:0 0 30px #999 inset;
+  box-shadow:0 0 30px #999 inset;
 }
 
 #v-nav >ul >li.last
