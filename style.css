@@ -1495,6 +1495,12 @@ ul.social-bookmarks {
 .social-bookmarks li.vimeo a:hover {
   background-color: #62a0ad;
 }
+.social-bookmarks li.viadeo a {
+  background: url(img/icons/social-icons/viadeo.png) no-repeat -5px -5px;
+}
+.social-bookmarks li.viadeo a:hover {
+  background-color: #62a0ad;
+}
 .social-bookmarks li.wordpress a {
   background: url(img/icons/social-icons/wordpress.png) no-repeat -5px -5px;
 }
