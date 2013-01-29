@@ -360,8 +360,7 @@
 */
 
   #title { /*default*/
-    background-image: url("../img/default.png");
-    background-position:0 -12em;
+    background: #000000;
   }
    #contact { /*default*/
     background-image: url("../img/contact.png");
@@ -387,9 +386,9 @@
     background-image: url("../img/csm-jeff.png");
     background-position:0 -20em;
   }
-   #title-home {
+.home #title {
     background-image: url("../img/home.png");
-    background-position:0 -20em;
+    background-position:0 -17em;
   }
   .single-desc #title {
     background-image: url("../img/single-desc.jpg");
@@ -421,6 +420,10 @@
     background-position:0 -2em;
   }
   #title-hadoop {
+    background-image: url("../img/hadoop.png");
+    background-position:0 -2em;
+  }
+  #title-hadoop-2 {
     background-image: url("../img/hadoop.png");
     background-position:0 -2em;
   }
