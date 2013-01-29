@@ -18,16 +18,16 @@ $(document).ready(function($) {
   // Check to see if the window is top if so display title
   $(window).scroll(function(){
     if ($(this).scrollTop() > 70) {
-      $('#title h2').addClass('hide');
+      $('#title h1').addClass('hide');
     } else {
-      $('#title h2').removeClass('hide');
+      $('#title h1').removeClass('hide');
     }
   });
   // If Window is not at the top hide title eg. if window is refreshed
-  var h2 = $("h2.title");
-  var position = h2.position();
+  var h1 = $("h1.title");
+  var position = h1.position();
     if ( position.top > 250) {
-      $('#title h2').addClass('hide');
+      $('#title h1').addClass('hide');
     }
 
 

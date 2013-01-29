@@ -7,7 +7,7 @@
 
 
 // Your Mail Address
-$your_mail = 'info@xebia-training.fr';
+$your_mail = 'yourmail@address.com';
 
 // Error Message
 $custom_error =  'Oh Boy! something went wrong with submission, could you PLS. try again or use my listed mail address <span>' . $your_mail . '</span>'; // everything between span is colored green for emphasis 
