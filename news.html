@@ -22,7 +22,7 @@ title: News
                 <div class="post-page">
               {% for post in site.posts limit:100 %}  
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p class="dt"><strong>{{ post.date | date: "%B %e, %Y" }}</strong> / Tag (s) : {{ post.tags}}</p> </small></p> 
+    <p class="dt"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> </small></p> 
     <p>{{ post.excerpt}}</p>
     <p><a href="{{ post.url }}" class="btn btn-inverse">{{ post.title }}</a>     
     <hr>      
