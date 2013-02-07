@@ -96,10 +96,8 @@ p {
   margin-bottom: 1.873em;
 }
 ul {
-    margin:0;
-    padding:0;
-    list-style-image:none;
-    list-style:none outside none;
+   margin:0 0 0 1.875em;
+    list-style:disc outside none;
 }
 ul.list-style, ul.list-style ul {
     margin:0 0 0 1.875em;
