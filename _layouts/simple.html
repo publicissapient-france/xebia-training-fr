@@ -31,6 +31,25 @@
     <link rel="stylesheet" href="/includes/assets/css/page.css">
 	<script src="/includes/js/libs/jquery-1.7.2.min.js"></script>
 	<script src="/includes/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<!--Slider-in icons-->
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".username").focus(function() {
+    $(".user-icon").css("left","-48px");
+  });
+  $(".username").blur(function() {
+    $(".user-icon").css("left","0px");
+  });
+  
+  $(".password").focus(function() {
+    $(".pass-icon").css("left","-48px");
+  });
+  $(".password").blur(function() {
+    $(".pass-icon").css("left","0px");
+  });
+});
+</script>
 </head>
 <body>
 <section id="nav" class="fixed_nav">
