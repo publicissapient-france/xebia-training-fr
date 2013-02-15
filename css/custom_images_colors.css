@@ -348,7 +348,7 @@
 /*--------------------------------------------------------------------------------------*/
 
 #bg-testimonial {
-    background-image: url("../img/testimonial.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/testimonial.jpg");
 }
 
 @media (min-width: 768px) { 
@@ -363,96 +363,96 @@
     background: #000000;
   }
    #contact { /*default*/
-    background-image: url("../img/contact.png");
+    background-image: url("http://cdn.training.xebia.fr/img/contact.png");
     background-position:0 -12em;
   }
   .portfolio #title {
-    background-image: url("../img/portfolio.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/portfolio.jpg");
     background-position:0 0;
   }
   .typography #title {
-    background-image: url("../img/typography.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/typography.jpg");
     background-position:0 -0.5em;
   }
   .price-table #title {
-    background-image: url("../img/price-table.png");
+    background-image: url("http://cdn.training.xebia.fr/img/price-table.png");
     background-position:0 0;
   }
   .single-page #title {
-    background-image: url("../img/typo-middle.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/typo-middle.jpg");
     background-position:0 -20em;
   }
    .single-page #title-csm-jeff {
-    background-image: url("../img/csm-jeff.png");
+    background-image: url("http://cdn.training.xebia.fr/img/csm-jeff.png");
     background-position:0 -20em;
   }
 .home #title {
-    background-image: url("../img/home.png");
+    background-image: url("http://cdn.training.xebia.fr/img/home.png");
     background-position:0 -17em;
   }
   .single-desc #title {
-    background-image: url("../img/single-desc.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/single-desc.jpg");
     background-position:0 -12em;
   }
   
   #title-contact {
-    background-image: url("../img/contact.png");
+    background-image: url("http://cdn.training.xebia.fr/img/contact.png");
     background-position:0 -2em;
   }
    #title-agile {
-    background-image: url("../img/methodes-agiles.png");
+    background-image: url("http://cdn.training.xebia.fr/img/methodes-agiles.png");
     background-position:0 -2em;
   }
    #title-tech {
-    background-image: url("../img/tech.png");
+    background-image: url("http://cdn.training.xebia.fr/img/tech.png");
     background-position:0 -2em;
   }
    #title-tech-essentials {
-    background-image: url("../img/tech-essentials.png");
+    background-image: url("http://cdn.training.xebia.fr/img/tech-essentials.png");
     background-position:0 -2em;
   }
   #title-tech-java {
-    background-image: url("../img/java.png");
+    background-image: url("http://cdn.training.xebia.fr/img/java.png");
     background-position:0 -2em;
   }
   #title-big-data {
-    background-image: url("../img/big-data.png");
+    background-image: url("http://cdn.training.xebia.fr/img/big-data.png");
     background-position:0 -2em;
   }
   #title-hadoop {
-    background-image: url("../img/hadoop.png");
+    background-image: url("http://cdn.training.xebia.fr/img/hadoop.png");
     background-position:0 -2em;
   }
   #title-hadoop-2 {
-    background-image: url("../img/hadoop.png");
+    background-image: url("http://cdn.training.xebia.fr/img/hadoop.png");
     background-position:0 -2em;
   }
   #title-mobilite {
-    background-image: url("../img/android.png");
+    background-image: url("http://cdn.training.xebia.fr/img/android.png");
     background-position:0 -2em;
   }
    #title-web {
-    background-image: url("../img/web.png");
+    background-image: url("http://cdn.training.xebia.fr/img/web.png");
     background-position:0 -2em;
   }
     #title-mongodb {
-    background-image: url("../img/mongodb.png");
+    background-image: url("http://cdn.training.xebia.fr/img/mongodb.png");
     background-position:0 -2em;
   }
       #title-scrumacademy {
-    background-image: url("../img/scrumacademy.png");
+    background-image: url("http://cdn.training.xebia.fr/img/scrumacademy.png");
     background-position:0 -2em;
   }
   #title-java-perf {
-    background-image: url("../img/performance-java.png");
+    background-image: url("http://cdn.training.xebia.fr/img/performance-java.png");
     background-position:0 -2em;
   }
   #title-post {
-    background-image: url("../img/performance-java.png");
+    background-image: url("http://cdn.training.xebia.fr/img/performance-java.png");
     background-position:0 -2em;
   }
   #title-post-page {
-    background-image: url("../img/performance-java.png");
+    background-image: url("http://cdn.training.xebia.fr/img/performance-java.png");
     background-position:0 -2em;
   }
 
@@ -474,19 +474,19 @@
 */
 
   #bg-pricing-tables {
-    background-image: url("../img/price-table.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/price-table.jpg");
   }
   #bg-typo {
-    background-image: url("../img/typo-center.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/typo-center.jpg");
   }
   #bg-typo-middle {
-    background-image: url("../img/typo-middle.jpg");
+    background-image: url("http://cdn.training.xebia.fr/img/typo-middle.jpg");
   }
   #bg-typo-next-training {
-    background-image: url("../img/home-big-data.png");
+    background-image: url("http://cdn.training.xebia.fr/img/home-big-data.png");
   }
    #bg-typo-home-big-data {
-    background-image: url("../img/next-training/home-big-data.png");
+    background-image: url("http://cdn.training.xebia.fr/img/next-training/home-big-data.png");
   }
 
 
