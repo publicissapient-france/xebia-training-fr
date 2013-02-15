@@ -30,12 +30,12 @@ layout: simple
             <tr>
                 <td class="left fifty">
                     {% if page.previous %}
-                        <a href="{{ page.previous.url | replace:'index.html','' }}"><img src="{{ site.cdn_url }}/images/left.png" width="30" height="32"> {{ page.previous.title }}</a>
+                        <a href="{{ page.previous.url | replace:'index.html','' }}"><img src="http://cdn.training.xebia.fr/images/left.png" width="30" height="32"> {{ page.previous.title }}</a>
                     {% endif %}
                 </td>
                 <td class="right fifty">
                     {% if page.next %}
-                        <a href="{{ page.next.url | replace:'index.html','' }}">{{ page.next.title }} <img src="/images/right.png" width="30" height="32"></a>
+                        <a href="{{ page.next.url | replace:'index.html','' }}">{{ page.next.title }} <img src="http://cdn.training.xebia.fr/images/right.png" width="30" height="32"></a>
                     {% endif %}
                 </td>
             </tr>
