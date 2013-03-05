@@ -3,8 +3,8 @@
    Written by Keith Wood (kbwood{at}iinet.com.au) Jan 2008. */
 (function($) {
 	$.countdown.regional['fr'] = {
-		labels: ['Années', 'Mois', 'Semaines', 'Jours', 'Heures', 'Minutes', 'Secondes'],
-		labels1: ['Année', 'Mois', 'Semaine', 'Jour', 'Heure', 'Minute', 'Seconde'],
+		labels: ['Années', 'Mois', 'Semaines', 'Jours', 'Heures', 'Min', 'Sec'],
+		labels1: ['Année', 'Mois', 'Semaine', 'Jour', 'Heure', 'Min', 'Sec'],
 		compactLabels: ['a', 'm', 's', 'j'],
 		whichLabels: function(amount) {
             return (amount > 1 ? 0 : 1);

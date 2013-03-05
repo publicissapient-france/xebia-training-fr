@@ -22,9 +22,9 @@
 <script type="text/javascript">
 $(function () {
   var austDay = new Date();
-  austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
-  $('#defaultCountdown').countdown({until: austDay});
-  $('#year').text(austDay.getFullYear());
+  austDay = new Date(austDay.getFullYear() + 1, 1 - 11, 26);
+  $('#defaultCountdown').countdown({until: austDay, format: 'DMS',}); 
+
 });
 </script>
   </head>
@@ -53,10 +53,8 @@ $(function () {
 </div>
 
       <div class="timer-zone">
-        <h2>&agrave; t&eacute;l&eacute;charger dans...</h2>
-        <div class="time">
+          <h2>&agrave; t&eacute;l&eacute;charger dans...</h2>
            <div id="defaultCountdown"></div>
-        </div>
       </div>
 
       <div class="issue">
