@@ -3,7 +3,6 @@ body {
 	padding-top: 0px !important;
 	font: 20px 'UbuntuRegular',Arial,sans-serif;
     color:#6d626b;
-
 }
 
 body header {
@@ -22,7 +21,7 @@ body header .legend{
     letter-spacing:5px;
 	width: 80%;
 	position: absolute;
-	right: 0px;
+	right: 10px;
 	top: 120px;
 	background-color: #330b2e;
 	color: gray;
@@ -39,8 +38,6 @@ body header .packshot{
 	top: 25px;
 	position: absolute;
 }
-#defaultCountdown { width: 24px; height: 45px;  }
-
 
 .intro {
 	position: relative;
@@ -51,9 +48,10 @@ body header .packshot{
 	height: 60px;
 	width: 360px;
 	left: 100px;
-	top: 10px;
+	top: 5px;
 	position: absolute;
 }
+
 .intro .text {
 	height: 60px;
 	width: 390px;
@@ -62,8 +60,8 @@ body header .packshot{
 	position: absolute;
 	font: 20px 'UbuntuLightItalic',Arial,sans-serif;
 	font-weight: 600;
-
 }
+
 .timer-zone {
 	position: absolute;
 	right: 95px;
@@ -73,15 +71,14 @@ body header .packshot{
     font: 11px 'UbuntuBold',Arial,sans-serif;
 
 }
-.time {
+
+#defaultCountdown { 
+    height: 60px;  
     text-align: center;
     background-color: rgb(0,187,234);
     color: white;
-    padding: 5px 0px 5px 30px;
- border:2px solid;
-border-radius:10px;
--moz-border-radius:10px; /* Old Firefox */
-font: 20px 'UbuntuBold',Arial,sans-serif;
+    padding: 10px;
+    font: 12px 'UbuntuBold',Arial,sans-serif;  
 }
 
 .issue {
