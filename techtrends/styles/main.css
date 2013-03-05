@@ -28,7 +28,7 @@ body header .legend{
 	color: gray;
     opacity: 0.9;
 	text-transform: uppercase;
-	padding: 10px;
+	padding: 10px 0 10px 15px;
 }
 
 body header .packshot{
@@ -39,6 +39,8 @@ body header .packshot{
 	top: 25px;
 	position: absolute;
 }
+#defaultCountdown { width: 24px; height: 45px;  }
+
 
 .intro {
 	position: relative;
@@ -49,14 +51,14 @@ body header .packshot{
 	height: 60px;
 	width: 360px;
 	left: 100px;
-	top: 20px;
+	top: 10px;
 	position: absolute;
 }
 .intro .text {
 	height: 60px;
 	width: 390px;
 	left: 110px;
-	top: 120px;
+	top: 110px;
 	position: absolute;
 	font: 20px 'UbuntuLightItalic',Arial,sans-serif;
 	font-weight: 600;
@@ -68,7 +70,7 @@ body header .packshot{
 	bottom: 0px;
 	top:390px;
     text-transform: uppercase;
-    font: 12px 'UbuntuBold',Arial,sans-serif;
+    font: 11px 'UbuntuBold',Arial,sans-serif;
 
 }
 .time {
@@ -84,7 +86,7 @@ font: 20px 'UbuntuBold',Arial,sans-serif;
 
 .issue {
 	left: 0px;
-	top: 500px;
+	top: 510px;
 	position: absolute;
 	width: 100%;
     background-color: rgb(241,240,238);
@@ -128,10 +130,53 @@ font: 20px 'UbuntuBold',Arial,sans-serif;
 	font: 18px 'UbuntuLightItalic',Arial,sans-serif;
 }
 
-
          
 li.list1 {list-style: square outside; color:rgb(0,187,234); }
 .blacktext {color:#6d626b}
+
+.myform{
+margin-top:250px;
+width:600px;
+padding: 20px;
+height: 75px;
+}
+
+#stylized{
+background: url('../img/trust-bg.png');
+}
+
+#stylized h2{
+background-color: rgb(0,187,234);
+width: 130px;
+margin-top:-58px;
+margin-bottom: 22px;
+margin-left: -20px;
+font-size:16px;
+text-transform: uppercase;
+color:#fff;
+padding: 10px;
+}
+
+#stylized input{
+float:left;
+font: 14px 'UbuntuLightItalic',Arial,sans-serif;
+padding:5px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+background-color: #eee;
+border:solid 1px #fff;
+}
+#stylized button{
+float:left;
+font: 15px 'UbuntuLightItalic',Arial,sans-serif;
+padding:8px 2px;
+border:solid 1px #fff;
+color: #fff;
+width:100px;
+margin:-2px 0 20px 29px;
+background-color: rgb(0,187,234);
+}
 
 
 @font-face {

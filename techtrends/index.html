@@ -13,8 +13,20 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/jquery.countdown.css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:700italic' rel='stylesheet' type='text/css'>
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.countdown.js"></script>
+<script type="text/javascript" src="scripts/jquery.countdown-fr.js
+"></script>
+<script type="text/javascript">
+$(function () {
+  var austDay = new Date();
+  austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+  $('#defaultCountdown').countdown({until: austDay});
+  $('#year').text(austDay.getFullYear());
+});
+</script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -27,16 +39,26 @@
       </header>
       <div class="intro">
         <h1></h1>
-        <div class="text">D&eacute;cryptage des technologies de demain pour vous aider &agrave; op&eacute;rer d&egrave;s aujourd'hui des choix d'avenir dans votre SI.</div>
+        <div class="text">Décryptage des technologies de demain pour vous aider &agrave; op&eacute;rer d&egrave;s aujourd'hui des choix d'avenir dans votre SI.</div>
+
       </div>
+<div id="stylized" class="myform">
+<form id="form" name="form" method="post" action="index.html" >
+  <h2>Inscription</h2>
+<input type="text" name="name" id="name" value="Nom et prénom"/>
+<input type="text" name="email" id="email" value="Email"/>
+<button type="submit">S'inscrire</button>
+
+</form>
+</div>
+
       <div class="timer-zone">
         <h2>&agrave; t&eacute;l&eacute;charger dans...</h2>
         <div class="time">
-          <span class="days">05</span>
-          <span class="min">32</span>
-          <span class="sec">19</span>
+           <div id="defaultCountdown"></div>
         </div>
       </div>
+
       <div class="issue">
         <h2>#1 - Mars 2013</h2>
         <hr/>
