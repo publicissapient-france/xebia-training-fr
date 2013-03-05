@@ -63,22 +63,19 @@ body header .packshot{
 }
 
 .timer-zone {
-	position: absolute;
-	right: 95px;
-	bottom: 0px;
-	top:390px;
+   position: absolute;
+   width: 220px;
+    right: 95px;
+    bottom: 0px;
+    top:395px;
     text-transform: uppercase;
-    font: 11px 'UbuntuBold',Arial,sans-serif;
-
+    font: 13px 'UbuntuBold',Arial,sans-serif;  
 }
 
-#defaultCountdown { 
-    height: 60px;  
-    text-align: center;
-    background-color: rgb(0,187,234);
-    color: white;
-    padding: 10px;
-    font: 12px 'UbuntuBold',Arial,sans-serif;  
+.timer-zone h2 {
+    font: 13px 'UbuntuBold',Arial,sans-serif;
+    text-align: right;
+    margin-top: 20px;
 }
 
 .issue {
@@ -87,12 +84,13 @@ body header .packshot{
 	position: absolute;
 	width: 100%;
     background-color: rgb(241,240,238);
-   margin:10px 0 0;
-        overflow:hidden;
+    margin:10px 0 0;
+    overflow:hidden;
 }
+
 .issue h2 {
     font: 27px 'Ubuntu',Arial,sans-serif;
-      background: url('../img/trust-bg.png');
+    background: url('../img/trust-bg.png');
 	margin: 0px;
 	background-color: rgba(0,0,0,0.8);
 	color: gray;
@@ -107,74 +105,74 @@ body header .packshot{
 	margin: 0px;
 	height: 7px;
 	background-color: rgba(0,0,0,0.8);
-          background: url('../img/trust-bg.png');
+    background: url('../img/trust-bg.png');
 	border: 0px;
 }
 
 .issue h3 {
-        font: 25px 'UbuntuLight',Arial,sans-serif;
+        font: 28px 'UbuntuLight',Arial,sans-serif;
 	background-color: rgb(0,187,234);
 	color: white;
-	padding: 5px 0px 5px 30px;
+	padding: 10px 0px 8px 20px;
 	text-transform: uppercase;
-	width: 300px;
+	width: 320px;
 }
 .issue h4 {
 	background-color: rgb(0,187,234);
 	color: white;
-	padding: 5px 0px 5px 30px;
+	padding: 10px 0px 8px 20px;
 	width: 270px;
 	font: 18px 'UbuntuLightItalic',Arial,sans-serif;
 }
 
          
 li.list1 {list-style: square outside; color:rgb(0,187,234); }
-.blacktext {color:#6d626b}
+.blacktext {color:#6d626b; font: 19px 'UbuntuLight'; }
 
 .myform{
-margin-top:250px;
-width:600px;
-padding: 20px;
-height: 75px;
+    margin-top:250px;
+    width:600px;
+    padding: 20px;
+    height: 75px;
 }
 
 #stylized{
-background: url('../img/trust-bg.png');
+    background: url('../img/trust-bg.png');
 }
 
 #stylized h2{
-background-color: rgb(0,187,234);
-width: 130px;
-margin-top:-58px;
-margin-bottom: 22px;
-margin-left: -20px;
-font-size:16px;
-text-transform: uppercase;
-color:#fff;
-padding: 10px;
+    background-color: rgb(0,187,234);
+    width: 130px;
+    margin-top:-58px;
+    margin-bottom: 22px;
+    margin-left: -20px;
+    font-size:16px;
+    text-transform: uppercase;
+    color:#fff;
+    padding: 10px;
 }
 
 #stylized input{
-float:left;
-font: 14px 'UbuntuLightItalic',Arial,sans-serif;
-padding:5px 2px;
-border:solid 1px #aacfe4;
-width:200px;
-margin:2px 0 20px 10px;
-background-color: #eee;
-border:solid 1px #fff;
-}
-#stylized button{
-float:left;
-font: 15px 'UbuntuLightItalic',Arial,sans-serif;
-padding:8px 2px;
-border:solid 1px #fff;
-color: #fff;
-width:100px;
-margin:-2px 0 20px 29px;
-background-color: rgb(0,187,234);
+    float:left;
+    font: 14px 'UbuntuLightItalic',Arial,sans-serif;
+    padding:5px 2px;
+    border:solid 1px #aacfe4;
+    width:200px;
+    margin:2px 0 20px 10px;
+    background-color: #eee;
+    border:solid 1px #fff;
 }
 
+#stylized button{
+    float:left;
+    font: 15px 'UbuntuLightItalic',Arial,sans-serif;
+    padding:8px 2px;
+    border:solid 1px #fff;
+    color: #fff;
+    width:100px;
+    margin:-2px 0 20px 29px;
+    background-color: rgb(0,187,234);
+}
 
 @font-face {
     font-family: 'UbuntuRegular';

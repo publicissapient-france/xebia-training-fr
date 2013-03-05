@@ -1,12 +1,17 @@
 .hasCountdown {
-        border: 1px solid #ccc;
-        background-color: #eee;
+    margin-top:-5px; 
+    height: 40px;  
+    width: 100%;
+    background-color: rgb(0,187,234);
+    color: white;
+    color: rgb(0,187,234);
+    font: 14px 'UbuntuBold',Arial,sans-serif;  
+    border:2px solid;
+    border-radius:10px;
+    -moz-border-radius:10px; /* Old Firefox */
 }
 .countdown_rtl {
         direction: rtl;
-}
-.countdown_holding span {
-        background-color: #ccc;
 }
 .countdown_row {
         clear: both;
@@ -15,36 +20,19 @@
         text-align: center;
 }
 .countdown_show1 .countdown_section {
-        width: 98%;
+        margin-left: 20px;
 }
-.countdown_show2 .countdown_section {
-        width: 48%;
-}
-.countdown_show3 .countdown_section {
-        width: 32.5%;
-}
-.countdown_show4 .countdown_section {
-        width: 24.5%;
-}
-.countdown_show5 .countdown_section {
-        width: 19.5%;
-}
-.countdown_show6 .countdown_section {
-        width: 16.25%;
-}
-.countdown_show7 .countdown_section {
-        width: 14%;
-}
+
 .countdown_section {
+        line-height: 28px;
         display: block;
         float: left;
         font-size: 75%;
-        text-align: center;
+        padding: 4px 0px 10px 0px;
+        float: left;
+        width: 33%;
 }
 .countdown_amount {
         font-size: 200%;
-}
-.countdown_descr {
-        display: block;
-        width: 100%;
+        color: #fff;
 }
