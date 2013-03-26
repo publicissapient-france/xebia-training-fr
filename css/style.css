@@ -899,30 +899,6 @@ margin-bottom: 2em;
   text-align:right;
 }
 
-
-/*----------------------------------------YDCOZA----------------------------------------*/
-/*    Background Images */
-/*    http://css-tricks.com/perfect-full-page-background-image/
-/*--------------------------------------------------------------------------------------*/
-
-/**
-*
-*  Stretch the image
-*
-*/
-
-.stretch {
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.bg-fixed { 
-  background-attachment:fixed;
-}
-
 /*----------------------------------------YDCOZA----------------------------------------*/
 /*    STD Button */
 /*--------------------------------------------------------------------------------------*/
