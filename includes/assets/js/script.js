@@ -31,3 +31,4 @@
     // Trigger the event hashchange on page load, using jquery-hashchange-plugin
     $(window).hashchange();
 });
+

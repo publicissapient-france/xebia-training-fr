@@ -247,7 +247,10 @@ $container.imagesLoaded( function(){ //Solves Chrome images issue
 /*--------------------------------------------------------------------------------------*/
 
 
+
+
 $('.stretch').css( "background-size", "cover" );
 
 
 }); //Doc Ready
+
