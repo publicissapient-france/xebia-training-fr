@@ -1,0 +1,198 @@
+---
+layout: simple
+title: Formation certifiante Apache Cassandra
+h1 : Formation certifiante Apache Cassandra
+formateur : Datastax
+category: NoSQL
+hotkeyword: formation apache cassandra
+pdflink : http://training.xebia.fr/formations-big-data-nosql/programmes/programme-formation-apache-cassandra.pdf
+titreofficiel : Formation Apache Cassandra certifiante par Datastax
+---
+
+<div class="above-title"></div>
+<section id="title">
+   <div class="container">
+      <div class="row">
+         <div class="span12 title-spacer-2">
+            <div class="clearfix"></div>
+            <h1 class="title"><span>Formation certifiante Apache Cassandra avec DataStax</span></h1>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+   </div>
+</section>   
+  <div class="container">
+   <div class="row">
+      <div class="span12">
+         <div class="row">
+            <div class="span12 margin-top-bottom">
+              <ul class="breadcrumb">
+                     <li><a href="http://training.xebia.fr/formations-techniques.html">Formations techniques</a> <span class="divider">/</span></li>
+                     <li><a href="http://training.xebia.fr/formations-big-data-nosql/formations-big-data-nosql.html">Formations Big Data et NoSQL</a> <span class="divider">/</span></li>
+                     <li class="active">Formation certifiante Apache Cassandra par Datastax</li>
+                  </ul>
+                <div id="v-nav">
+                  <ul>
+                      <li tab="tab1" class="first current">Présentation</li>
+                      <li tab="tab2">Programme</li>
+                      <li tab="tab3">Bio</li>
+                      <li tab="tab4">Informations</li>
+                      <li tab="tab5" class="last">Inscription</li>
+                  </ul>
+                <div class="tab-content" style="display: block;">
+                  <h2>Présentation</h2>
+                  <hr>
+                    <p><a href="{{ page.pdflink }}">Téléchargez le programme PDF de la {{ page.titreofficiel }}</a></p>
+                    <p>Cette formation de 2 jours est ponctuée d'échanges théoriques et d'ateliers Hands on. Vous aborderez notamment les sujets suivants : Apache Cassandra, Apache Hadoop, Apache Solr, DataStax Enterprise et DataStax OpsCenter.</p>
+                    <p>Cette formation vous apportera tous les éléments dont vous avez besoin pour adopter avec succès Apache Cassandra. Les sujets abordés seront : les données NoSQL,  les colonnes et les familles de colonnes, les comparateurs, L'API C*, l'indexation, l'indexation secondaire, les colonnes composites, les series ordonnées, les données temporelles, Hadoop, Hive, Pig et Solr.</p>
+                </div>
+                <div class="tab-content" style="display: none;">
+                  <h2>Programme</h2>
+                  <hr>
+                  <p><a href="{{ page.pdflink }}">Téléchargez le programme PDF de la {{ page.titreofficiel }}</a></p>
+                    <h3>Les bases</h3>
+                    <ul>
+                      <li>Comprendre ce que sont les colonnes Cassandra (ce qu’il y a après « C* »), leurs composants et leurs rôles ;</li>
+                      <li>Décrire le rôle d’une colonne dans une famille de colonne ;</li>
+                      <li>Identifier les colonnes, composants (TimeStamp, Name/Value, TTL, composants requis ou optionnels) ;</li>
+                      <li>Détails pour le nom de la colonne ;</li>
+                      <li>Détails pour la valeur de la colonne ;</li>
+                      <li>A quelle fin le TimeStamp est-il utilisé ?</li>
+                      <li>Qu’est-ce que le TimeStamp ?</li>
+                      <li>Les détails pour le TTL ;</li>
+                      <li>Que sont les SuperColumns ?</li>
+                      <li>Que sont les CounterColumns ?</li>
+                      <li>Comment les colonnes sont triées?</li> 
+                      <li>Comment les valeurs des colonnes sont validées ?</li>
+                      <li>A quelle fin les comparateurs sont utilisés ?</li>
+                      <li>Décrire ce qu’est un comparateur ?</li>
+                      <li>Que signifie inverser un comparateur ?</li>
+
+                    </ul>
+                    <h3>Famille de colonnes</h3> 
+                    <ul>
+                      <li>Qu’est-ce qu’une famille de colonne ?
+<li>Qu’est-ce qu’un « Keyspace » ?</li>
+<li>Qu’est-ce qui est stocké dans un « Keyspace » ?</li>
+<li>Qu’est ce qu’un cluster ?</li> 
+<li>Acquérir une compréhension du « Consistent Hashing » </li>
+<li>Comment les partitions sont sélectionnées</li> 
+<li>Que sont les lignes (« rows ») ?</li>
+<li>Qu’est-ce que la « dénormalisation » (« denormalization ») ?</li>
+<li>Qu’est ce que l’« Eventual Consistency »</li>
+<li>Décrire des familles de colonne statiques : Static Column Families</li>
+<li>Décrire des familles de colonne dynamiques : Dynamic Column Families</li>
+<li>Utiliser de schémas de requêtes efficaces avec C*</li>
+<li>Identification des anti-modèles dans les requêtes C*</li>
+<li>Etre capable de « dénormaliser » vos données en C*</li>
+<li>Que font les TTL ?</li>
+<li>Comment les comparateurs influencent la modélisation des données ?</li>
+<li>Reconnaître un « Cient side join » et comment l’éviter ;</li>
+<li>Savoir comment C* représente les relations dans les données (il ne le fait pas) ;</li>
+<li>Faire des analyses côut/ bénéfice pour choisir « reads » ou « writes » ;</li>
+<li>Comprendre ce qui se produit quand on insert des données en l’absence de contraintes primaires clés ;</li> 
+<li>Comprendre ce que les UUIDs sont et leurs différents types ;</li>
+                    </ul>                    
+                    <h3>L'API</h3>
+                    <ul>
+                      <li>Comprendre l’objectif de l’API Thrift ;</li>
+<li>Qu’est-ce que Thrift ?</li>
+<li>Pour quoi utilise-t-on Thrift ?</li>
+<li>Identifier ce qui peut mal se passer et pourquoi ?</li>
+<li>Décrire les besoins de cohérence pour « reads » et « writes » ;</li>
+<li>Décrire les fonctions des méthodes Thrift pour « get », « set », « multiget », « indexed slice »</li>
+<li>A quelle fin la commande «execute_cql_query »  est utilisée ?</li>
+<li>Comprendre ce qu’il y a dans le type Thrift pour ColumnOrSupercolumn ;</li>
+<li>Qu’est-ce qu’un « slice predicate » ;</li>
+<li>Quelles sont les contraintes disponibles ;</li>
+<li>Qu’est ce qu’un « key range » ;</li>
+<li>Pourquoi vous ne devriez pas utiliser « raw Thrift » ;</li>
+<li>Comment Thrift accède à CQL ?</li>
+<li>Quel client est le mieux pour vous et comment en choisir un ?</li>
+                    </ul>                    
+                    <h3>Indexer</h3>
+                    <ul>
+                      <li>Expliquer comment C* utilise “Primary Indexes” ou “Partition Keys” pour localiser les données dans le cluster ;</li>
+<li>Expliquer comment C* utilise “Primary Indexes” pour localiser les données dans la machine ; </li>
+<li>Apprenez pourquoi vous devriez choisir le « Random Partitioner » ;</li>
+<li>Que sont les indices secondaires ?</li>
+<li>Quelle est la limite absolue de la colonne ?</li>
+<li>Qu’est-ce qu’une limite de colonne plus pratique ?</li>
+<li>Pour quoi les schémas sont-ils bons ?</li>
+<li>Pourquoi les personnes utilisent typiquement les « wide row » dans cassandra ?</li>
+<li>Apprendre comment les lignes sont stockées dans les partitions ;</li>
+<li>Comprendre comment créer et maintenir des indices « wide row » pour : Grouping Sorting Range Queries ;</li>
+<li>Comprendre comment les Super et Composite columns trient les données ;</li>
+                    </ul>
+                    <h3>Examiner une application Cassandra</h3>
+                    <ul>
+                      <li>Analyser une application Cassandra existante ;</li>
+<li>Identifier des applications efficaces de « Column Families » ;</li>
+<li>Identifier les familles de colonne statiques et dynamiques et comment elles sont utilisées ;</li>
+<li>Identifier les contre-modèles d’application C* ;</li>
+<li>Utiliser CQL3 pour « dénormaliser » un schéma et éliminer les raccords côté client ;</li>
+                    </ul>
+                    <h3>Colonnes composites</h3>
+                    <ul>
+                      <li>Que sont les colonnes composites dans Thrift ?</li>
+<li>Dans CQL comment faut-il utiliser les composites ?</li>
+<li>Qu’est-ce qui doit être évité ?</li>
+                    </ul>                    
+                    <h3>Listes ordonnées rangs espacés</h3>
+                    <ul>
+                      <li>Démultiplier les colonnes pour créer des listes ordonnées ;</li>
+<li>Comprendre comment les colonnes sont ordonnées ;</li>
+<li>Comprendre ce qui se produit lorsqu’on change une valeur dans une colonne ;</li>
+<li>Comprendre ce qui se produit lorsqu’on insert un nouveau nom de colonne (ou un objet avec un nouveau nom de colonne)</li>
+<li>Décrire ce qui se produit lorsqu’on essaye de « mettre à jour » le nom d’une colonne dans une liste (insérer un nouvel objet)</li>
+<li>Connaître des manières alternatives de mettre à jour des listes (créer de nouvelles listes, versions, clés de substitution)</li>
+<li>Comment utiliser des index inversés pour ajouter, actualiser, effacer des objets d’une liste ;</li>                      
+                    </ul>                    
+                    <h3>Indices secondaires </h3>
+                    <ul>
+                      <li>Comprendre comment des index secondaires sont implémenter dans C* ;</li>
+<li>Identifier des modèles de requête efficaces avec des index secondaires ;</li>
+<li>Identifier des anti-modèles avec des index secondaires ;</li>
+<li>Etre capable de créer un index secondaire dans un tableau ;</li>
+<li>Etre capable de faire des requêtes dans un index secondaire ;</li>
+<li>Comprendre comment la cardinalité affecte les index secondaires de requête ;</li>
+                    </ul>
+                    <h3>Données temporelles (Time Series)</h3>
+                    <h3>Réussites de modélisation</h3>
+                    <h3>Hadoop</h3>
+                    <h3>Hive</h3>
+                    <h3>Pig</h3>
+                    <h3>Solr.</h3>
+                </div>
+                <div class="tab-content" style="display: none;">
+                  <h2>Bio</h2>
+            <h3>Datastax</h3>
+            <p>Datastax est le leader de l'industrie dans le développement de solutions basées sur Apache Cassandra, la technologie open source de base de données NoSQL largement reconnue comme la meilleure base pour s'attaquer aux problèmes les plus difficiles concernant les données.</p>
+            <p>DataStax is the leading expert for Apache Cassandra, providing software, support, and training for all things Cassandra.</p>
+                </div>
+                <div class="tab-content" style="display: none;">
+                  <h2>Informations</h2>
+                   <ul>
+            <li><strong>Dates 2013 :</strong> 6-7 juin</li>
+            <li><strong>Durée :</strong> 2 jours</li>
+            <li><strong>Prix :</strong> 1 850 €</li>
+            <li><strong>Lieu :</strong> Paris, boulevard Haussmann</li>
+        </ul>
+                </div>
+                <div class="tab-content" style="display: none;">
+                    <h2>Inscription</h2>
+                  <p>Xebia Training est une société de formation agréée ce qui vous permet d’être financé par ces organismes (Fafiec, Agefos ,Opcalia par exemple). Notre numéro d’agrément est le : 11 92 164 1692.</p>
+                   <div class="alert alert-info"><a href="http://training.xebia.fr/inscription.html">Formulaire d'inscritpion en ligne</a>
+                  </div>
+                  <div class="alert alert-info">
+                   <a href="http://training.xebia.fr/bon-de-commande.pdf">Télécharger notre bulletin d'inscription PDF éditable</a>
+                  </div>
+         <hr>
+                   <p>Dés réception de ces documents, votre inscription sera validée, nous vous enverrons dès lors les convocations et conventions de formation.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+ </div> 
