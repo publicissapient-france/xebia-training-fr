@@ -1,13 +1,13 @@
 ---
 layout: simple
-title: Formation MongoDB
+title: Formation MongoDB Essentials
 h1 : Formation MongoDB en français
 formateur : 10Gen
 category: NoSQL
 id : title-mongodb
 hotkeyword: formation mongodb
 pdflink : http://cdn.training.xebia.fr/formations-big-data-nosql/programmes/programme-formation-mongodb.pdf
-titreofficiel : Formation MongoDB avec 10Gen en français
+titreofficiel : Formation MongoDB Essentials avec 10Gen en français
 description: Cette formation de 2 jours couvre tout ce dont à besoin un administrateur, un développeur et un responsable d’exploitation pour déployer et maintenir une base de donnée MongoDB en production.
 keywords: formation nosql, formation mongodb, mongodb, formations mongodb
 ---
@@ -18,7 +18,7 @@ keywords: formation nosql, formation mongodb, mongodb, formations mongodb
       <div class="row">
          <div class="span12 title-spacer-2">
             <div class="clearfix"></div>
-            <h1 class="title"><span>Formation MongoDB</span></h1>
+            <h1 class="title"><span>Formation MongoDB Essentials de 3 jours avec 10Gen</span></h1>
             <div class="clearfix"></div>
          </div>
       </div>
@@ -32,81 +32,90 @@ keywords: formation nosql, formation mongodb, mongodb, formations mongodb
               <ul class="breadcrumb">
                      <li><a href="http://training.xebia.fr/formations-techniques.html">Formations techniques</a> <span class="divider">/</span></li>
                      <li><a href="http://training.xebia.fr/formations-big-data-nosql/formations-big-data-nosql.html">Formations Big Data et NoSQL</a> <span class="divider">/</span></li>
-                     <li class="active">Formation MongoDB avec 10Gen en français animée par 10Gen</li>
+                     <li class="active">Formation MongoDB Essentials avec 10Gen en français animée par 10Gen</li>
                   </ul>
                 <div id="v-nav">
                   <ul>
-                      <li tab="tab1" class="first current">Présentation</li>
                       <li tab="tab2">Programme</li>
                       <li tab="tab3">Bio</li>
                       <li tab="tab4">Informations</li>
                       <li tab="tab5" class="last">Inscription</li>
                   </ul>
-                <div class="tab-content" style="display: block;">
-                  <h2>Présentation</h2>
-                  <hr>
-                    <p><a href="{{ page.pdflink }}">Téléchargez le programme PDF de la {{ page.titreofficiel }}</a></p>
-                      <p>Cette formation de 2 jours couvre tout ce dont à besoin un administrateur, un développeur et un responsable d’exploitation pour déployer et maintenir une base de donnée MongoDB en production. Au delà du déploiement et de la maintenance, les stagiaires aborderont les problèmes de performance, l’import et l’export de données ainsi que les backups. A la fin de la formation, les stagiaires auront également une compréhension de shell MongoDB, l’API de query et les drivers tools.</p>
-        <h3>les objectifs</h3> 
-            <p>Cette formation permettra aux utilisateurs de MongoDB de :</p> 
-            <ul>
-                <li>Comprendre MongoDB d’un point de vue administrateur (« command shell », « query API » et les driver tools)</li>
-                <li>Déployer MongoDB dans toutes ses configurations (« single server », « master/slave replication », « sharded cluster », etc.)</li>
-                <li>Evaluer les applications et choisir le hardware approprié</li>
-                <li>Surveiller/Controller MongoDB et intégrer avec du logiciel standard (Munin, Nagio, etc.)</li>
-                <li>Planifier des backups et et gérer d’important imports/exports de données</li>
-                <li>Diagnostiquer et résoudre les problèmes les plus courants</li>
-            </ul>          
-                </div>
+
                 <div class="tab-content" style="display: none;">
                   <h2>Programme</h2>
                   <hr>
                   <p><a href="{{ page.pdflink }}">Téléchargez le programme PDF de la {{ page.titreofficiel }}</a></p>
-                     <h3>Jour 1</h3>
-                <ul>
-                    <li>Introduction à MongoDB</li>
-                        <ul>
-                            <li>Qu'est-ce que MongoDB et pourquoi ? <br> (Concepts de base; Environnements; Documentation)</li>
-                            <li>Différents modèles de déploiement</li>
-                            <li>JSON</li>
-                            <li>Installation</li>
-                        </ul>           
-                    <li>CRUD and the MongoDB shell</li>
-                        <ul>
-                            <li>Introduction à MongoDB API et aux concepts de base des documents et collections</li>
-                        </ul>           
-                    <li>Replication</li>
-                        <ul>
-                            <li>Vue d'ensemble</li>
-                            <li>Setting up replica sets</li>
-                        </ul>           
-                </ul>
-                <h3>Jour 2</h3> 
+                     <h3>Formation générale, partie 1 : Jour 1</h3>
+              
+                  <h4>Introduction à MongoDB</h4>
+                  <ul>
+<li>Qu’est-ce que MongoDB et pourquoi ?</li>
+<ul>
+<li>Concepts clés</li>
+<li>Environnements</li>
+<li>Documentation</li>
+  </ul>
+<li>Différents modèles de déploiement </li>
+<li>JSON</li>
+<li>Installation </li>
+</ul>
+
+                  <h4>CRUD et le shell MongoDB</h4>
+                  <ul>
+                  <li>Introduction aux API MongoDB et aux concepts clés des documents et recueils (de données)</li>
+                  </ul>
+                  <h4>Indexation et conception de schémas </h4>
+                  <ul>
+                  <li>Indexer, profiler les requêtes et les optimiser</li>
+                  <li>Etude de cas de certaines conceptions de schéma </li>
+                  <li>Pratiquer la modélisation de différents domaines</li>
+                  <li>Schémas pour « opérations atomiques » </li>
+</ul>
+                <h3>Formation générale, 2e partie : Jour 2</h3> 
+                  <h4>Drivers</h4>
+                  <ul>
+                  <li>Comment les drivers fonctionnent en général</li>
+<li>APIs de driver avec des exemples</li>
+</ul>
+                  <h4>Réplication de données</h4>
+                  <ul>
+                  <li>Vue générale de la reproduction</li>
+<li>Création d’ensembles de « replications »</li> 
+<li>Comment la reproduction affecte le design des applications</li>
+</ul>
+                  <h4>Dépannage en termes de performance</h4>
+                  <ul>
+                  <li>Trouver des informations sur MongoDB</li>
+<li>Indicateurs de performance</li>
+</ul>
+                  <h4>Contrôle</h4>
+                  <ul>
+                  <li>Mise en place du contrôle habituel</li>
+<li>Comment intégrer des solutions de contrôle sur-mesure</li> 
+<li>Drapeaux rouge : choses auxquelles il faut faire attention</li>
+</ul>
+
+                    <h3>Formation générale, 2e partie : Jour 3</h3>
+                    <h4>« Sharding »</h4>
                     <ul>
-                        <li>Sharding</li>
-                        <ul>
-                                <li>Vue d'ensemble</li>
-                                <li>Setting up sharding</li>
-                            </ul>
-                        <li>Performance Troubleshooting</li>
-                        <ul>
-                                <li>Obtenir des informations sur MongoDB</li>
-                                <li>Indicateurs de performance</li>
-                            </ul>       
-                        <li>Monitoring</li>
-                        <ul>
-                                <li>Typical monitoring setup</li>
-                                <li>How to integrate with custom monitoring solutions</li>
-                                <li>Red flags &ndash; what to watch for</li>
-                            </ul>       
-                        <li>Backups and Recovery</li>
-                        <ul>
-                                <li>Approches basées sur mongodump</li>
-                                <li>Approches "File system/storage level"</li>
-                                <li>Liens</li>
-                            </ul>       
-                        <li>Sujets additionnels (en fonction du temps et des intérêts)</li>
-                    </ul>
+                    <li>Vue d’ensemble du « sharding »</li>
+<li>Mise en place du « sharding »</li>
+<li>Comment le « sharding » affecte-t-il la conception des applications</li>
+</ul>
+                    <h4>Sauvegardes et restaurations</h4>
+                    <ul>
+                    <li>Approches basées sur mongodump</li>
+<li>Systèmes de fichiers/approches par niveau d’entreposage</li>
+<li>Compromis</li> 
+</ul>
+                    <h4>Sujets additionnels en fonction du temps et des intérêts </h4>
+                    <ul>
+                    <li>Indices GeoSpatial</li>
+<li>GridFS</li>
+<li>Agrégation</li>
+</ul>
+                    <h4>Question-réponse et atelier Hands-on</h4>
                 </div>
                 <div class="tab-content" style="display: none;">
                   <h2>Bio</h2>
@@ -121,10 +130,10 @@ keywords: formation nosql, formation mongodb, mongodb, formations mongodb
                 <div class="tab-content" style="display: none;">
                   <h2>Informations</h2>
                    <ul>
-            <li><strong>DATES 2013 :</strong> 25-26 mars / 27-28 juin / 26-27 septembre / 16-17 décembre</li>
+            <li><strong>DATES 2013 :</strong> 25, 26 et 27 septembre, 16, 17 et 18 décembre</li>
             <li><strong>Type :</strong> Inter et intra-entreprise</li>
-            <li><strong>Prix inter-entreprise :</strong> 1 400&euro; HT</li>
-            <li><strong>Prix intra-entreprise :</strong> 13 000&euro; HT</li>
+            <li><strong>Prix inter-entreprise :</strong> 2 000&euro; HT</li>
+            <li><strong>Prix intra-entreprise :</strong> Contactez nous</li>
             <li><strong>Durée :</strong> 2 jours</li>
             <li><strong>Lieu :</strong> Paris (inter-entreprise) / Selon les demandes du client (intra-entreprise)</li>
         </ul>
