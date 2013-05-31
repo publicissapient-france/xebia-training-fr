@@ -53,9 +53,9 @@ html, body {
     margin:0;
 }
 body {
-  font-size: 90%;
+  font-size: 100%;
   line-height: 1.6875;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   color: #4C4A4A;
   height: 100%;
@@ -69,10 +69,9 @@ li,
   padding: 0 20px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.04em;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -280,7 +279,7 @@ code, pre {
 /*--------------------------------------------------------------------------------------*/
 
 #nav {
-  font-family: "Dosis";
+   font-family: 'Ubuntu', sans-serif;
   position:absolute;
   width: 100%;
   background-color: #6d2960;
@@ -337,12 +336,12 @@ code, pre {
   margin: 28px 0;
   padding: 9px 10px;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
   font-size: 14px;
   line-height: 12px;
   text-shadow: none !important;
   color: #FFFFFF;
   border-right:1px solid #8a3f7c;
+  text-transform: uppercase;
 }
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover,
@@ -546,7 +545,7 @@ section#title {
   width: 100%;
   color: #FFFFFF;
   text-align: center;
-  opacity:0.9;
+  background: url('/images/backgrounds/back-h1.png');
   -moz-transition:opacity .7s ease-in-out;
   -o-transition:opacity .7s ease-in-out;
   -webkit-transition:opacity .7s ease-in-out;
@@ -555,7 +554,7 @@ section#title {
 }
 section#title h1 span {
   display: inline-block;
-  padding: 18px 10px; padding: 1em 0 0.5em 0;
+  padding: 1em 0 0.5em 0;
   color: #FFFFFF;
   opacity:0.9;
   -moz-transition:opacity .7s ease-in-out;
@@ -603,7 +602,7 @@ section#title-hadoop {
   display: inline-block;
   width: 100%;
   color: #FFFFFF;
-  opacity:0.9;
+   background: url('/images/backgrounds/back-h1.png');
   -moz-transition:opacity .7s ease-in-out;
   -o-transition:opacity .7s ease-in-out;
   -webkit-transition:opacity .7s ease-in-out;
@@ -616,7 +615,7 @@ section#title-hadoop h1 span {
     width: 80%;
     margin: 85px 0 50px 0;
   padding: 19px; padding: 2.2rem;
-   background: #000; opacity: 0.9;
+   background: #000; opacity: 0.4;
 }
 section#title-hadoop h1.title_fade {
   opacity:0;
@@ -630,7 +629,7 @@ section#title-java-perf {
   display: inline-block;
   width: 100%;
   color: #FFFFFF;
-  opacity:0.9;
+  background: url('/images/backgrounds/back-h1.png');
   -moz-transition:opacity .7s ease-in-out;
   -o-transition:opacity .7s ease-in-out;
   -webkit-transition:opacity .7s ease-in-out;
@@ -643,7 +642,7 @@ section#title-java-perf h1 span {
     width: 80%;
     margin: 25px 0 25px 0;
   padding: 19px; padding: 2.2rem;
-   background: #000; opacity: 0.9;
+   background: #000; opacity: 0.4;
 }
 section#title-tech-java h1.title_fade {
   opacity:0;
@@ -868,7 +867,7 @@ section#title-contact {
     width: 40%;
     margin: 40px 0 20px 0;
   padding: 19px; padding: 2.2rem;
-   background: #333; opacity: 0.9;
+ background: url('/images/backgrounds/back-h1.png');
 }
 /*home Page*/
 .home .title-spacer {
@@ -887,7 +886,6 @@ margin-bottom: 2em;
 .home section#title h1 span {
     width: 35%;
   padding: 19px; padding: 2.2rem;
-   background: #333; opacity: 0.9;
 }
 .home section#title h1 span span {
   background-color: transparent;
@@ -2049,7 +2047,9 @@ p.chirp {
   .dropdown-submenu > a:after {
     visibility: hidden;
   }
-
+  .above-title { 
+    height: 54px;
+  }
   .sidebar .form-search input {
     width: 156px;
   }
@@ -2092,25 +2092,25 @@ p.chirp {
     margin-bottom: 0;
     margin-top: 0;
   }
-  section#title h1 {
+  section#title h2 {
     text-align:center;
     line-height:1.5em;
     position: relative;
     display: block;
   }
-  section#title h1 span {
+  section#title h2 span {
     display:block;
   }
-  section#title h1.title_fade {
+  section#title h2.title_fade {
     opacity: 1;
   }
-  .home section#title h1 {
+  .home section#title h2 {
     font-size: 1.75em;
   }
-  .home section#title h1 span {
+  .home section#title h2 span {
     padding-top: 38px; padding: 2.4rem;
   }
-  .home section#title h1 span span {
+  .home section#title h2 span span {
     text-align:center;
   }
   footer,
@@ -2160,7 +2160,6 @@ p.chirp {
   }
 
 }
-
 
 .img_bio {
     float: left;
