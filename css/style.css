@@ -552,6 +552,7 @@ section#title {
   -webkit-transition:opacity .7s ease-in-out;
   -ms-transition:opacity .7s ease-in-out;
   transition:opacity .7s ease-in-out;
+  background: #000; 
 }
 section#title h1 span {
   display: inline-block;
@@ -883,6 +884,7 @@ margin-bottom: 2em;
 .home section#title h1 {
   font-size: 2em;
   line-height: normal;
+  background: #000; opacity: 0.9;
 }
 .home section#title h1 span {
     width: 35%;
