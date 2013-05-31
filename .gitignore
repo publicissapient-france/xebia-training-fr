@@ -3,3 +3,5 @@ _site/
 *.png
 
 _layouts/training.html
+
+apropos.html
