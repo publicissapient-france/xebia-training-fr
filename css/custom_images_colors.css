@@ -360,8 +360,7 @@
 */
 
   #title { /*default*/
-     background: url('/images/backgrounds/back-h1.png');
-  height: 400px;
+    background: #000000;
   }
    #contact { /*default*/
     background-color: #333333;
@@ -388,7 +387,8 @@
     background-position:0 -20em;
   }
 .home #title {
-     background: url('/images/backgrounds/back-h1.png');    background-position:0 -17em;
+    background-color: #4C4A4A;
+    background-position:0 -17em;
   }
   .single-desc #title {
     background-color: #333333;
