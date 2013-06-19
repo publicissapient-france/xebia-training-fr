@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <rss version="2.0">
     <channel>
-   
         <title>Xebia Training FR</title>
         <link>http://training.xebia.fr/formations-big-data-nosql/formations-big-data-nosql.html</link>
         <description>Formations Big Data</description>
@@ -13,6 +12,5 @@
             <description>Formation Big Data</description>
             <pubDate>Wed, 13 June 2013 19:30:00 GMT</pubDate>
         </item>
-       
     </channel>
 </rss>
