@@ -35,9 +35,12 @@ title: Xebia Essentials
                     <p>
                         Nous acceptons les paiements approvisionnés par carte bancaire (Plateforme sécurisé de paiement) et par solde PayPal.
                     </p>
-                    <div class="img-center">
-                    <a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_flow&SESSION=wFkUKoBS4Sg4Alt21hJqab0rNuM3RpdC4XxbBeFZxLbDxiMaqKpo7WFFl0m&dispatch=50a222a57771920b6a3d7b606239e4d529b525e0b7e69bf0224adecfb0124e9b61f737ba21b081988da7a3c03e3ee25661350b6a36dba24a"><img src="images/paypal.png"></a></div>
-                    <hr>
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+     <input type="hidden" name="cmd" value="_s-xclick"><br>
+     <input type="hidden" name="hosted_button_id" value="TESYTFSMXPV4J"><br>
+     <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !"><br>
+     <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1"><br>
+       </form>
   
     </div>
 </div>
