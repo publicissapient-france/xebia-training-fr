@@ -72,7 +72,6 @@ h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
   line-height: 1em;
   margin-bottom: 0.6em;
   margin-top: 0.8em;
@@ -82,7 +81,7 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-style: italic;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -553,13 +552,13 @@ section#title {
   width: 100%;
   color: #FFFFFF;
   text-align: center;
-  opacity:0.9;
   -moz-transition:opacity .7s ease-in-out;
   -o-transition:opacity .7s ease-in-out;
   -webkit-transition:opacity .7s ease-in-out;
   -ms-transition:opacity .7s ease-in-out;
   transition:opacity .7s ease-in-out;
-  background: #000; 
+  background: url('../images/trust-bg.png');
+  position: relative;
 }
 section#title h1 span {
   display: inline-block;
@@ -638,12 +637,6 @@ section#title-java-perf {
   display: inline-block;
   width: 100%;
   color: #FFFFFF;
-  opacity:0.9;
-  -moz-transition:opacity .7s ease-in-out;
-  -o-transition:opacity .7s ease-in-out;
-  -webkit-transition:opacity .7s ease-in-out;
-  -ms-transition:opacity .7s ease-in-out;
-  transition:opacity .7s ease-in-out;
 }
 section#title-java-perf h1 span {
   display: inline-block;
