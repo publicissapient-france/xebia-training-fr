@@ -360,7 +360,8 @@
 */
 
   #title { /*default*/
-    background: #000000;
+      background: url('../images/trust-bg.png');
+  position: relative;
   }
    #contact { /*default*/
     background-color: #333333;
